@@ -1,0 +1,103 @@
+/* assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.noise-bg {
+    /* background-image: url('/noise.svg'); */
+    background-color:#F4EED3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @apply border-b
+    
+}
+
+
+.nav-bg {
+    /* background-image: url('/noise.svg'); */
+    background-color:#21463c;
+    
+    
+}
+
+.statue-bg {
+    background-image: url('/statue.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @apply border-b
+    
+}
+
+.text-size {
+   @apply text-lg xl:text-xl leading-8;
+}
+
+.blueNoise-bg {
+    background-image: url('/blue.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @apply border-b
+    
+}
+
+.brownNoise-bg {
+    background-image: url('/brownNoise.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @apply border-b
+    
+}
+
+.shape-bg {
+    background-image: url('/shape-dots.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @apply border-b
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    /* zoom:125% */
+  }
+  
+
+.btn-primary {
+   @apply bg-[#FF5F45] rounded-lg px-3 py-1.5 text-[#FFFFFF] font-normal text-[1rem] my-auto ;
+}
+.btn-secondary {
+    @apply bg-transparent rounded-lg pl-1 pr-1 py-1 text-[#00140F] border border-[#00140F] text-[1rem] my-auto;
+}
+
+.large-font {
+    @apply font-semibold text-[48px] md:text-5xl lg:text-5xl;
+    font-family: 'Montserrat';
+    line-height: 56px;
+}
+
+.button-bg{
+    background-color:#a7a7a7 ;
+}
+
+.our-work-heading{
+    @apply font-semibold text-[24px] text-[#A2FF48] md:text-5xl lg:text-5xl;
+    line-height: 24px;
+}
+
+body{
+    background-color:#21463c;
+    width: 100%;
+    overflow-x: hidden;
+}
+  
+  
+  /* h1, h2, h3, h4, h5, h6, p, span, div {
+    font-family: 'Montserrat';
+  } */
+
