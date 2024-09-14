@@ -21,12 +21,12 @@
         <!-- About Us -->
          <div class="items-center justify-center w-full">
           <div id="aboutus" class="bg-[#21463C] pb-20 items-center justify-center flex flex-col w-full">
-            <div class="my-auto text-black py-10 lg:py-1 px-[8.5rem] justify-center items-center w-full relative">
-              <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start mt-40 pb-4">About Us</h6>
+            <div class=" text-black px-[8.5rem] justify-center items-center w-full ">
+              <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start mt-20 pb-2">About Us</h6>
               <h3 class="text-[40px] font-montserrat mb-10 leading-[48px] text-[#ffffff] text-start">Understanding the Team</h3>
-              <div class="flex flex-row gap-12 justify-between w-full relative z-10">
-                <div class="flex flex-row w-full text-center items-center justify-center gap-8 z-10 relative">
-                  <div class="text-[#ffffff] text-left font-hind text-lg w-full tracking-wide space-y-8 relative">
+              <div class="flex flex-row gap-12 justify-between w-full">
+                <div class="flex flex-row w-full text-center items-center justify-center gap-8  ">
+                  <div class="text-[#ffffff] text-left font-hind text-lg w-full tracking-wide space-y-8 ">
                     <h5 class="text-[#A2FF48] font-montserrat text-[20px] font-medium leading-[24px] text-left">Why Now?</h5>
                     <div class="space-y-4">
                       <p class="font-thin text-base tracking-wide font-hind">Recent breakthroughs in Natural Language Processing, Machine Learning, and Large Language Models have made it possible to process vast amounts of unstructured data at scale—something that was previously accessible to only a few.</p>
@@ -34,12 +34,12 @@
                       <p class="font-thin text-base tracking-wide font-hind">This convergence makes it the perfect time for a platform that delivers smarter, more contextual recommendations, moving beyond traditional search methods.</p>
                     </div>
                   </div>
-                  <div class="w-full items-center justify-center">
-                    <img src="/Image (5).png" class="lg:w-[600px] object-contain z-10" />
+                  <div class="relative w-full items-center justify-center">
+                    <img src="/Image (5).png" class="relative lg:w-[600px] object-contain z-10" />
+                    <img src="/Frame 204.png" class="absolute -top-20 -right-[6rem] z-0 lg:w-[250px] " />
                   </div>
                 </div>
               </div>
-              <img src="/Frame 204.png" class="absolute top-60 right-20 z-0 lg:w-[200px] " />
             </div>
             <div class="my-auto text-black pt-20 pb-10 px-[8.5rem] justify-center items-center w-full">
                 <div class="flex flex-row-reverse justify-between items-center text-center gap-8">

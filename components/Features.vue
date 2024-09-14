@@ -1,11 +1,11 @@
 <template>
-  <div class="flex w-full justify-center items-center pb-20">
+  <div class="flex w-full justify-center items-center py-16">
     <!-- Button Section -->
-    <div class="w-full flex flex-col items-center pr-24">
+    <div class="w-full flex flex-col items-center pr-40">
       <!-- Accordion 1 -->
       <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
         <div class="flex justify-between">
-          <h3 class="font-semibold font-montserrat text-xl text-[#00140F]">Semantic Search</h3>
+          <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Semantic Search</h3>
           <Button
             @click="toggleAccordion(1)"
             class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
@@ -22,7 +22,7 @@
       <!-- Accordion 2 -->
       <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
         <div class="flex justify-between">
-          <h3 class="font-semibold font-montserrat text-xl text-[#00140F]">Derivative Insights</h3>
+          <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Derivative Insights</h3>
           <Button
             @click="toggleAccordion(2)"
             class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
@@ -43,7 +43,7 @@
       <!-- Accordion 3 -->
       <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
         <div class="flex justify-between">
-          <h3 class="font-semibold font-montserrat text-xl text-[#00140F]">Deep Profile</h3>
+          <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Deep Profile</h3>
           <Button
             @click="toggleAccordion(3)"
             class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
@@ -60,7 +60,7 @@
       <!-- Accordion 4 -->
       <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
         <div class="flex justify-between">
-          <h3 class="font-semibold font-montserrat text-xl text-[#00140F]">Derivative Insights</h3>
+          <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Derivative Insights</h3>
           <Button
             @click="toggleAccordion(4)"
             class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
@@ -81,7 +81,7 @@
       <!-- Accordion 5 -->
       <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
         <div class="flex justify-between">
-          <h3 class="font-semibold font-montserrat text-xl text-[#00140F]">Deep Profile</h3>
+          <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Deep Profile</h3>
           <Button
             @click="toggleAccordion(5)"
             class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"

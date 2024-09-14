@@ -1,5 +1,5 @@
 <template>
-    <div id="contactus" class="flex items-start justify-between bg-[#F4EED3] pl-[8.5rem] py-10 pr-10 rounded-t-[2rem] relative">
+    <div id="contactus" class="flex items-start justify-between bg-[#F4EED3] pl-[8.5rem] py-28 pr-10 rounded-t-[2rem] relative">
         <!-- Left Section (Text and Address) -->
         <img src="/Decorative Dots_b.png" class="absolute  bottom-0 w-1/2 h-full  z-0 left-[-150px]" />
         <div class="w-1/2  relative z-10">
@@ -11,7 +11,7 @@
             <!-- Address Section -->
             <div class="mt-8">
               <h5 class="font-montserrat font-semibold text-[20px]">We Are Here Currently</h5>
-              <div class="mt-2 text-[16px]">
+              <div class="mt-4 text-[16px] space-y-4">
                 <p>228 Park Avenue South</p>
                 <p>PMB 21976, New York</p>
                 <p>NY 10003</p>
@@ -21,7 +21,7 @@
             <!-- Social Media Links -->
             <div class="mt-8">
               <h5 class="font-montserrat font-semibold text-[20px]">Our Social Media Links</h5>
-              <div class="flex flex-col mt-4 space-y-2">
+              <div class="flex flex-col mt-4 space-y-4">
                 <a href="#" class="flex items-center space-x-2">
                   <img src="/Youtube.png" alt="YouTube" class="h-6 w-6">
                   <span class="text-[16px] underline hover:text-[#555C5A]">YouTube</span>
@@ -42,7 +42,7 @@
       
         <!-- Right Section (Form) -->
         <div class="w-5/6 mt-[115px] pr-20 relative">
-          <img src="/Decorative Dots_t.png" class="absolute  bottom-[150px] w-full h-full  z-0 left-[150px]" />
+          <img src="/Decorative Dots_t.png" class="absolute  bottom-[200px] w-full h-full  z-0 left-[150px]" />
           <div class="relative z-10">
             <h5 class="font-montserrat font-semibold  text-[20px]">Send Us a Message</h5>
 
@@ -110,7 +110,7 @@
 
         <!-- Submit Button -->
         <div class="text-right">
-          <button type="submit" class="bg-[#FF5F45] text-white px-6 py-3 rounded-lg font-semibold">Contact Us</button>
+          <button type="submit" class="bg-[#FF5F45] text-white px-6 py-3 rounded-lg text-xl font-semibold btn-primary">Send Message</button>
         </div>
       </form>
 

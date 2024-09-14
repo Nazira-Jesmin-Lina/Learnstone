@@ -2,7 +2,7 @@
     
         <div id="ourwork" class=" pl-[3.5rem] bg-[#21463C] mx-auto lg:flex gap-4 xl:gap-16 relative justify-center items-center pb-10 z-0 flex flex-col ">
   
-          <div class="my-auto text-black pb-10 lg:py-1 justify-start  items-center">
+          <div class="my-auto text-black lg:py-1 justify-start  items-center">
             <p class="text-[20px] text-[#FF5F45] mt-20 font-montesserat font-semibold ">Our Work</p>
             <h3 class="text-[40px] font-montserrat mb-10 text-[#ffffff] font-semibold leading-[48px] text-start mt-5 ">Disruppting Current Solutions</h3>
             <div class="flex flex-row gap-8 items-center justify-between ">        
@@ -120,7 +120,7 @@
 
           <div class=" items-center pt-5 pb-20">
 
-            <<div class="flex flex-row items-center pl-20">
+            <div class="flex flex-row items-center pl-20 mb-20">
               <div class="">
                 <div class="w-11/12">
                   <img src="/ourwork_3.png" class="w-[700px] " />

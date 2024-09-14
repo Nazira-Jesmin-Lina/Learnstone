@@ -1,5 +1,5 @@
 <template>
-    <div class="noise-bg rounded-b-[2rem] py-28 justify-center items-center relative w-full pl-[3.5rem]">
+    <div class="noise-bg rounded-b-[2rem] py-20 justify-center items-center relative w-full pl-[3.5rem]">
         <img src="/Decorative Dots.png" class="absolute bottom-2  w-full lg:w-[1000px] z-0 right-0" />
         <div class="flex justify-center  items-center w-full relative z-20">
             <div class="w-full [text-#00140F] ml-20 py-20 justify-center items-center">
