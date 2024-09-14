@@ -9,7 +9,7 @@
             <h2 class="font-montserrat text-[40px] font-semibold leading-[48px]">Placeholder Text</h2>
         
             <!-- Address Section -->
-            <div class="mt-8">
+            <div class="mt-12">
               <h5 class="font-montserrat font-semibold text-[20px]">We Are Here Currently</h5>
               <div class="mt-4 text-[16px] space-y-4">
                 <p>228 Park Avenue South</p>

@@ -53,7 +53,7 @@
                   </div>
                   <div class="w-full relative">
                     <img src="/Image (6).png" class="lg:w-[650px] object-contain z-10 relative" />
-                    <img src="/Frame 205_2.png" class="absolute -bottom-20 -left-24 transform translate-x-4 z-0 lg:w-[200px]" />
+                    <img src="/Frame 205_2.png" class="absolute -bottom-[3.5rem] -left-[4.5rem] transform translate-x-4 z-0 lg:w-[200px]" />
                   </div>
                 </div>
               </div>
