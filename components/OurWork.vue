@@ -2,29 +2,33 @@
     
         <div id="ourwork" class=" pl-[3.5rem] bg-[#21463C] mx-auto lg:flex gap-4 xl:gap-16 relative justify-center items-center pb-10 z-0 flex flex-col ">
   
-          <div class="my-auto text-black  pb-10 lg:py-1 justify-start">
-            <p class="text-[20px] text-[#FF5F45] mt-20 ml-20 font-montesserat font-semibold max-w-[572]">Our Work</p>
-            <h3 class="text-[40px] font-montserrat mb-10 text-[#ffffff] font-semibold leading-[48px] text-start mt-5 ml-20 ">Disruppting Current Solutions</h3>
-            <div class="flex flex-row gap-12 justify-between -pr-20">        
-              <div class="flex flex-row  max-w-[880px] pt-40 text-center justify-center text-hind">
-                <div class="mr-10 ">
-                  <h4 class=" text-[24px] font-montserrat text-[#A2FF48] text-semibold leading-9 text-left mt-35 ml-20 mb-5">The problem we're addressing isn't new.</h4>
+          <div class="my-auto text-black pb-10 lg:py-1 justify-start  items-center">
+            <p class="text-[20px] text-[#FF5F45] mt-20 font-montesserat font-semibold ">Our Work</p>
+            <h3 class="text-[40px] font-montserrat mb-10 text-[#ffffff] font-semibold leading-[48px] text-start mt-5 ">Disruppting Current Solutions</h3>
+            <div class="flex flex-row gap-8 items-center justify-between ">        
+              <div class="flex flex-row  max-w-[572px] text-center justify-center text-hind">
+                <div class="mr-10">
+                  <h4 class=" text-[24px] font-montserrat text-[#A2FF48] text-semibold leading-9 text-left mt-35 mb-5">
+                    The problem we're addressing isn't new.
+                    </h4>
                   <div class="font-hind text-[16px] font-light" >
-                    <p class="text-[#ffffff] text-[16px] text-normal leading-6 text-left mt-35 ml-20">Students and young professionals have always faced overwhelming choices that will multiple over time, and a lack of clear guidance when planning their next steps</p> 
+                    <p class="text-[#ffffff] text-[16px] text-normal leading-6 text-left mt-35">
+                      Students and young professionals have always faced overwhelming choices that will multiple over time, and a lack of clear guidance when planning their next steps
+                    </p> 
                     <br>
-                    <p class="text-[#ffffff] text-[16px] leading-6 text-left mt-35 ml-20">Existing solutions often provide superficial information, falling short of what's needed.</p> 
+                    <p class="text-[#ffffff] text-[16px] leading-6 text-left mt-35">Existing solutions often provide superficial information, falling short of what's needed.</p> 
                   </div>
                 </div>
               </div>
-              <div class="-ml-8 pl-2 pr-20 relative">
-                <img src="/our_work_1.png" class="relative z-20 lg:w-[900px] object-contain left-0 top-3" />
-                <img src="/Frame 204.png" class="absolute top-0 right-[-20px] transform -translate-y-1/3 z-10 lg:w-[300px]" />
+              <div class="pr-6 relative ">
+                <img src="/our_work_1.png" class="relative z-20 w-full object-contain left-[-20] top-3" />
+                <img src="/Frame 204.png" class="absolute top-0 right-[-80px] transform -translate-y-1/3 z-10 w-[300px]" />
               </div>
             </div>
           </div>
   
   
-          <div class="flex flex-row justify-center pt-10">
+          <div class="flex flex-row justify-center py-4">
             <img src="/Frame 206.png" class="lg:w-[200px] -mr-20 relative z-10 -top-1" />
             <h3 class="text-center text-[#ffffff] font-semibold font-montserrat text-[32px] leading-[40px] mt-20 relative z-20 -ml-5 -mr-5">
               We aim to change that by offering <br>deeper, more meaningful insights.
@@ -74,7 +78,7 @@
 
           
 
-          <div class=" items-center pt-20">
+          <div class=" items-center pt-5">
 
             <div class="flex flex-row-reverse px-20 -pr-20 gap-20 items-center">
               <div  class="-mr-20 overflow-hidden">
@@ -114,7 +118,7 @@
           </div>
 
 
-          <div class=" items-center pt-20 pb-20">
+          <div class=" items-center pt-5 pb-20">
 
             <<div class="flex flex-row items-center pl-20">
               <div class="">

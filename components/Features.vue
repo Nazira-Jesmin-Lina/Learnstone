@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-full justify-center items-center pb-20">
     <!-- Button Section -->
-    <div class="w-full flex flex-col items-center">
+    <div class="w-full flex flex-col items-center pr-24">
       <!-- Accordion 1 -->
       <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
         <div class="flex justify-between">

@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center justify-center">
     <div class="">
-      <div>
+      <div class="">
         <nav-bar />
         <!-- Hero -->
         <Hero/>
