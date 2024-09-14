@@ -23,7 +23,7 @@
               <h5 class="font-montserrat font-semibold text-[20px]">Our Social Media Links</h5>
               <div class="flex flex-col mt-4 space-y-2">
                 <a href="#" class="flex items-center space-x-2">
-                  <img src="/youtube.png" alt="YouTube" class="h-6 w-6">
+                  <img src="/Youtube.png" alt="YouTube" class="h-6 w-6">
                   <span class="text-[16px] underline hover:text-[#555C5A]">YouTube</span>
                 </a>
                 <a href="#" class="flex items-center space-x-2">
