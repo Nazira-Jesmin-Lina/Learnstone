@@ -22,10 +22,10 @@
          <div class="items-center justify-center w-full">
           <div id="aboutus" class="bg-[#21463C] pb-20 items-center justify-center flex flex-col w-full">
             <div class=" text-black px-[8.5rem] justify-center items-center w-full ">
-              <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start mt-20 pb-2">About Us</h6>
+              <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start mt-28 pb-2">About Us</h6>
               <h3 class="text-[40px] font-montserrat mb-10 leading-[48px] text-[#ffffff] text-start">Understanding the Team</h3>
               <div class="flex flex-row gap-12 justify-between w-full">
-                <div class="flex flex-row w-full text-center items-center justify-center gap-8  ">
+                <div class="flex flex-row w-full text-center items-center justify-center gap-8  mt-8">
                   <div class="text-[#ffffff] text-left font-hind text-lg w-full tracking-wide space-y-8 ">
                     <h5 class="text-[#A2FF48] font-montserrat text-[20px] font-medium leading-[24px] text-left">Why Now?</h5>
                     <div class="space-y-4">

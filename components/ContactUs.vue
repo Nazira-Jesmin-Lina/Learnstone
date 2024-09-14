@@ -43,7 +43,7 @@
         <!-- Right Section (Form) -->
         <div class="w-5/6 mt-[115px] pr-20 relative">
           <img src="/Decorative Dots_t.png" class="absolute  bottom-[200px] w-full h-full  z-0 left-[150px]" />
-          <div class="relative z-10">
+          <div class="relative mt-[12px] z-10">
             <h5 class="font-montserrat font-semibold  text-[20px]">Send Us a Message</h5>
 
             <form @submit.prevent="handleSubmit" class="mt-6 space-y-4">
