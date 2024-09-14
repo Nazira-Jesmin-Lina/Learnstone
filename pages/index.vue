@@ -36,12 +36,12 @@
                   </div>
                   <div class="relative w-full items-center justify-center">
                     <img src="/Image (5).png" class="relative lg:w-[600px] object-contain z-10" />
-                    <img src="/Frame 204.png" class="absolute -top-20 -right-[6rem] z-0 lg:w-[250px] " />
+                    <img src="/Frame 204.png" class="absolute -top-20 -right-[6rem] z-0 lg:w-[270px] " />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="my-auto text-black pt-20 pb-10 px-[8.5rem] justify-center items-center w-full">
+            <div class="my-auto text-black pt-10 pb-10 px-[8.5rem] justify-center items-center w-full">
                 <div class="flex flex-row-reverse justify-between items-center text-center gap-8">
                   <div class="text-[#ffffff] text-left font-hind text-lg w-full tracking-wide space-y-8 z-10 relative">
                     <h5 class="text-[#A2FF48] font-montserrat text-[20px] font-medium leading-[24px] text-left">Why Us?</h5>
@@ -52,8 +52,8 @@
                     </div>
                   </div>
                   <div class="w-full relative">
-                    <img src="/Image (6).png" class="lg:w-[650px] object-contain left-0 top-3 -ml-4 z-10 relative" />
-                    <img src="/Frame 205_2.png" class="absolute -bottom-10 -left-20 transform translate-x-4 z-0 lg:w-[200px]" />
+                    <img src="/Image (6).png" class="lg:w-[650px] object-contain z-10 relative" />
+                    <img src="/Frame 205_2.png" class="absolute -bottom-20 -left-24 transform translate-x-4 z-0 lg:w-[200px]" />
                   </div>
                 </div>
               </div>
