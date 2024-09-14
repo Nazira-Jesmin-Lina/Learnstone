@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top-0 left-0 w-full  bg-[#F4EED3] lg:flex justify-between w-3/2 px-20 pt-4 pb-4 z-[99999] rounded-b-[2rem] border-b-[#DBCCB1] border-b-2">
+  <nav class="fixed top-0 left-0 w-full  bg-[#F4EED3] lg:flex justify-between w-3/2 px-20 pt-4 pb-4 z-[99999] rounded-b-[2rem] border-b-[#DBCCB1] border-b-[1px]">
     <img src="/logo.svg" class="my-auto" alt="logo" />
 
     <div class="flex gap-2">
