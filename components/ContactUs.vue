@@ -31,7 +31,7 @@
                   <span class="text-[16px] underline hover:text-[#555C5A]">Instagram</span>
                 </a>
                 <a href="#" class="flex items-center space-x-2">
-                  <img src="/icon.png" alt="LinkedIn" class="h-6 w-6">
+                  <img src="/Icon.png" alt="LinkedIn" class="h-6 w-6">
                   <span class="text-[16px] underline hover:text-[#555C5A]">LinkedIn</span>
                 </a>
               </div>
