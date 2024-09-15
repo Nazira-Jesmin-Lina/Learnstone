@@ -7,7 +7,7 @@
             <h3 class="text-[40px] font-montserrat mb-10 text-[#ffffff] font-semibold leading-[48px] text-start mt-5 ">Disruppting Current Solutions</h3>
             <div class="flex flex-row gap-8 items-center justify-between ">        
               <div class="flex flex-row  max-w-[572px] text-center justify-center text-hind">
-                <div class="mr-10">
+                <div class="mr-10 3xl:mr-20">
                   <h4 class=" text-[24px] font-montserrat text-[#A2FF48] text-semibold leading-9 text-left mt-35 mb-5">
                     The problem we're addressing isn't new.
                     </h4>
@@ -20,9 +20,9 @@
                   </div>
                 </div>
               </div>
-              <div class="pr-6 relative ">
-                <img src="/our_work_1.png" class="relative z-20 w-full object-contain left-[-20] top-3" />
-                <img src="/Frame 204.png" class="absolute top-0 right-[-80px] transform -translate-y-1/3 z-10 w-[300px]" />
+              <div class="pr-6  relative ">
+                <img src="/our_work_1.png" class="relative z-20 w-full 3xl:w-11/12 object-contain left-[-20] 3xl:left-[-10]  top-3" />
+                <img src="/Frame 204.png" class="absolute top-0 right-[-80px] transform -translate-y-1/3 z-10 w-[300px] 3xl:right-[-30px]" />
               </div>
             </div>
           </div>
