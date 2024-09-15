@@ -1,7 +1,8 @@
 <template>
-    <div id="contactus" class="flex items-start justify-between bg-[#F4EED3] pl-[8.5rem] 3xl:px-[23.5rem] py-24 pr-10 rounded-t-[2rem] relative">
+    <div id="contactus" class="flex items-start justify-between bg-[#F4EED3] pl-[8.5rem] 3xl:px-[23.5rem] 4xl:px-[27rem] py-24 rounded-t-[2rem] relative">
         <!-- Left Section (Text and Address) -->
         <img src="/Decorative Dots_b.png" class="absolute  bottom-0 w-1/2 h-full  z-0 left-[-150px]" />
+        <img src='/Mask group.svg' class="absolute z-0 top-0 right-0"/> 
         <div class="w-1/2  relative z-10">
           
           <div class="">
@@ -41,9 +42,8 @@
         </div>
       
         <!-- Right Section (Form) -->
-        <div class="w-5/6 mt-[115px] pr-20 relative">
-          <img src="/Decorative Dots_t.png" class="absolute  bottom-[200px] w-full h-full  z-0 left-[0px] 3xl:left-[350px]" />
-          <div class="relative mt-[12px] z-10">
+        <div class="w-1/2 mt-[115px] pr-20 relative">
+          <div class="relative mt-[12px]">
             <h5 class="font-montserrat font-semibold  text-[20px]">Send Us a Message</h5>
 
             <form @submit.prevent="handleSubmit" class="mt-6 space-y-4">

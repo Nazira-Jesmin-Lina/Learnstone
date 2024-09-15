@@ -1,10 +1,10 @@
 <template>
-  <div class="flex w-full justify-center items-center py-16 3xl:py-14 ">
+  <div class="flex w-full justify-center items-center py-14 3xl:py-14 4xl:py-0 ">
     <!-- Button Section -->
-    <div class="w-full flex flex-col items-center pr-40">
+    <div class="w-full flex flex-col items-center pr-40 ">
       <!-- Accordion 1 -->
       <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
-        <div class="flex justify-between">
+        <div class="flex justify-between ">
           <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Semantic Search</h3>
           <Button
             @click="toggleAccordion(1)"
@@ -134,15 +134,15 @@ function isAccordionOpen(accordion: number) {
 const currentImage = computed(() => {
   switch (openAccordion.value) {
     case 1:
-      return "Image Placeholder.png";
+      return "Image Placeholder (4).svg";
     case 2:
-      return "Image Placeholder (1).png";
+      return "Image Placeholder (3).svg";
     case 3:
-      return "Image Placeholder (2).png";
+      return "Image Placeholder (2).svg";
     case 4:
-      return "Image Placeholder (3).png";
+      return "Image Placeholder.svg";
     case 5:
-      return "Image Placeholder (4).png";
+      return "Image Placeholder (1).svg";
     default:
       return "Image Placeholder.png"; // Default image if no accordion is open
   }
