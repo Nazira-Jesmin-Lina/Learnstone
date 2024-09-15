@@ -16,7 +16,7 @@
                   </div>
                   <div class="relative w-full 3xl:w-5/6 4xl:pl-6  items-center justify-center">
                     <img src="/Image (5).png" class="relative lg:w-[600px] object-contain z-10" />
-                    <img src="/Frame 204.png" class="absolute -top-24 -right-[6rem] z-0 lg:w-[270px] " />
+                    <img src="/Frame 204.png" class="absolute -top-24 lg:-right-[6rem] z-0 lg:w-[270px] " />
                   </div>
                 </div>
               </div>
@@ -24,7 +24,7 @@
             <div class="my-auto text-black pt-10 pb-8 3xl:pb-10 lg:px-[8.5rem] 3xl:px-[22rem] 4xl:px-[26rem] justify-center items-center w-full">
                 <div class="flex flex-row-reverse justify-between items-center text-center gap-8">
                   <div class="text-[#ffffff] text-left font-hind text-lg w-full 4xl:w-5/6 4xl:pl-8 tracking-wide space-y-8 z-10 relative">
-                    <h5 class="text-[#A2FF48] font-montserrat text-[20px]  font-medium leading-[24px] text-left">Why Us?</h5>
+                    <h5 class="text-[#A2FF48] font-montserrat text-[20px] font-medium leading-[24px] text-left">Why Us?</h5>
                     <div class="space-y-4">
                       <p class="font-thin text-base tracking-wide font-hind">Our team is composed of researchers and engineers with exceptional academic and professional track records.</p>
                       <p class="font-thin text-base tracking-wide font-hind">Many of us hold top-tier credentials in Natural Language Processing and related fields. We also bring expertise in data collection, processing, and warehousing.</p>
@@ -33,7 +33,7 @@
                   </div>
                   <div class="w-full 3xl:w-5/6 3xl:pl-6 4xl:pl-4  relative">
                     <img src="/Image (6).png" class="lg:w-[650px] 4xl:w-[572px] object-contain z-10 relative" />
-                    <img src="/Frame 205_2.png" class="absolute -bottom-[3.5rem] -left-[4.5rem] transform translate-x-4 z-0 lg:w-[200px]" />
+                    <img src="/Frame 205_2.png" class="absolute lg:-bottom-[3.5rem] lg:-left-[4.5rem] transform translate-x-4 z-0 lg:w-[200px]" />
                   </div>
                 </div>
               </div>

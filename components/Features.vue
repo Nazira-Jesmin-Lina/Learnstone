@@ -13,7 +13,7 @@
           <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Semantic Search</h3>
           <Button
             @click="toggleAccordion(1)"
-            class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
+            class="lg:px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
           >
             <i :class="isAccordionOpen(1) ? 'fas fa-minus' : 'fas fa-plus'"></i>
           </Button>
@@ -30,7 +30,7 @@
           <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Derivative Insights</h3>
           <Button
             @click="toggleAccordion(2)"
-            class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
+            class="lg:px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
           >
             <i :class="isAccordionOpen(2) ? 'fas fa-minus' : 'fas fa-plus'"></i>
           </Button>
@@ -51,7 +51,7 @@
           <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Deep Profile</h3>
           <Button
             @click="toggleAccordion(3)"
-            class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
+            class="lg:px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
           >
             <i :class="isAccordionOpen(3) ? 'fas fa-minus' : 'fas fa-plus'"></i>
           </Button>
@@ -68,7 +68,7 @@
           <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">User Centered</h3>
           <Button
             @click="toggleAccordion(4)"
-            class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
+            class="lg:px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
           >
             <i :class="isAccordionOpen(4) ? 'fas fa-minus' : 'fas fa-plus'"></i>
           </Button>
@@ -89,7 +89,7 @@
           <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">High-Resolution Guidance</h3>
           <Button
             @click="toggleAccordion(5)"
-            class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
+            class="lg:px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
           >
             <i :class="isAccordionOpen(5) ? 'fas fa-minus' : 'fas fa-plus'"></i>
           </Button>

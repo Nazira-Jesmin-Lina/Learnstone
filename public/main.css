@@ -72,13 +72,13 @@ html {
     @apply bg-[#FF5F45] rounded-lg px-3 py-1.5 text-[#FFFFFF] font-normal text-[1rem] my-auto ;
  }
  .btn-primary:hover {
-     @apply bg-[#E0462D] rounded-lg px-3 py-1.5 text-[#FFFFFF] font-normal text-[1rem] my-auto ;
+     @apply bg-[#E0462D] ;
   }
  .btn-secondary {
      @apply bg-transparent rounded-lg pl-1 pr-1 py-1 text-[#21463C] border border-[#21463C] text-[1rem] my-auto;
  }
  .btn-secondary:hover {
-     @apply bg-transparent rounded-lg pl-1 pr-1 py-1 text-[#303830] border border-[#303830] text-[1rem] my-auto;
+     @apply text-[#303830] border border-[#303830];
  }
 
 .large-font {
