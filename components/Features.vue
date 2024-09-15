@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full justify-center items-center py-16 3xl:py-2 ">
+  <div class="flex w-full justify-center items-center py-16 3xl:py-14 ">
     <!-- Button Section -->
     <div class="w-full flex flex-col items-center pr-40">
       <!-- Accordion 1 -->
