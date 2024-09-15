@@ -11,7 +11,7 @@
       <div class=" -mt-20">
       
         <!-- Core Feature -->
-        <div id="platform" class="bg-[#F4EED3] pt-16 rounded-[2rem] pb-4 z-10 relative pl-[8.5rem] 3xl:px-[25rem]">
+        <div id="platform" class="bg-[#F4EED3] pt-16 rounded-[2rem] pb-4 3xl:pb-16 z-10 relative pl-[8.5rem] 3xl:px-[23.5rem]">
           <div class="text-black  flex flex-col items-start justify-center">
             <p class="text-[20px] text-[#FF5F45] font-montserrat font-semibold">Platform</p>
             <h2 class="font-montserrat text-[40px] font-semibold leading-[48px]">Core Features</h2>
@@ -21,7 +21,7 @@
         <!-- About Us -->
          <div class="items-center justify-center w-full">
           <div id="aboutus" class="bg-[#21463C] pb-20 items-center justify-center flex flex-col w-full">
-            <div class=" text-black px-[8.5rem] 3xl:px-[25rem] justify-center items-center w-full ">
+            <div class=" text-black px-[8.5rem] 3xl:px-[23.5rem] justify-center items-center w-full ">
               <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start mt-[5.5rem] pb-2">About Us</h6>
               <h3 class="text-[40px] font-montserrat mb-10 leading-[48px] text-[#ffffff] text-start">Understanding the Team</h3>
               <div class="flex flex-row gap-12 justify-between w-full">
@@ -34,7 +34,7 @@
                       <p class="font-thin text-base tracking-wide font-hind">This convergence makes it the perfect time for a platform that delivers smarter, more contextual recommendations, moving beyond traditional search methods.</p>
                     </div>
                   </div>
-                  <div class="relative w-full items-center justify-center">
+                  <div class="relative w-full 3xl:w-5/6 items-center justify-center">
                     <img src="/Image (5).png" class="relative lg:w-[600px] object-contain z-10" />
                     <img src="/Frame 204.png" class="absolute -top-24 -right-[6rem] z-0 lg:w-[270px] " />
                   </div>
@@ -51,8 +51,8 @@
                       <p class="font-thin text-base tracking-wide font-hind">This unique combination of skills positions us strongly to deliver on the challenge.</p>
                     </div>
                   </div>
-                  <div class="w-full relative">
-                    <img src="/Image (6).png" class="lg:w-[650px] object-contain z-10 relative" />
+                  <div class="w-full 3xl:w-5/6 3xl:pl-6 relative">
+                    <img src="/Image (6).png" class="lg:w-[650px]  object-contain z-10 relative" />
                     <img src="/Frame 205_2.png" class="absolute -bottom-[3.5rem] -left-[4.5rem] transform translate-x-4 z-0 lg:w-[200px]" />
                   </div>
                 </div>
