@@ -106,7 +106,7 @@
             </div>
           </div>
           <div class=" items-center 3xl:w-2/3 pb-40 4xl:w-3/5">
-            <div class="flex flex-row items-center justify-center pl-20 3xl:pl-0 gap-8">
+            <div class="flex flex-col lg:flex-row items-center justify-center lg:pl-20 3xl:pl-0 gap-8">
               <div class="flex ">
                 <div class="">
                   <img src="/ourwork_3.png" class="w-[343px] lg:w-[700px] 3xl:w-[572px] 4xl:w-[650px] object-contain" />
