@@ -42,7 +42,7 @@
       
         <!-- Right Section (Form) -->
         <div class="w-5/6 mt-[115px] pr-20 relative">
-          <img src="/Decorative Dots_t.png" class="absolute  bottom-[200px] w-full h-full  z-0 left-[150px]" />
+          <img src="/Decorative Dots_t.png" class="absolute  bottom-[200px] w-full h-full  z-0 left-[150px] 3xl:left-[350px]" />
           <div class="relative mt-[12px] z-10">
             <h5 class="font-montserrat font-semibold  text-[20px]">Send Us a Message</h5>
 
