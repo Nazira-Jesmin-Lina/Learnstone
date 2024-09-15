@@ -42,7 +42,7 @@
         </div>
       
         <!-- Right Section (Form) -->
-        <div class="w-1/2 mt-[115px] pr-20 relative">
+        <div class="w-3/4 mt-[115px] pr-20 4xl:pr-0 relative">
           <div class="relative mt-[12px]">
             <h5 class="font-montserrat font-semibold  text-[20px]">Send Us a Message</h5>
 

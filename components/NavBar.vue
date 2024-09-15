@@ -38,22 +38,74 @@
     </div>
   </nav>
 
-  <nav class="lg:hidden  bg-[#F4EED3] fixed top-0 left-0 z-[99999] rounded-b-3xl border-b-[#DBCCB1] border-b-[1px] w-full">
-    <div class="flex justify-between p-4">
-      <img src="/logo.svg"  class="my-auto" alt="logo" />
-      <img src="/burger.svg" @click="()=> isOpen = !isOpen" class="my-auto cursor-pointer" alt="logo" />
+  <!-- Mobile Navbar -->
+<nav class="lg:hidden bg-[#F4EED3] text-[#00140F] fixed top-0 left-0 z-[99999] rounded-b-3xl border-b-[#DBCCB1] border-b-[1px] w-full">
+  <div class="flex justify-between p-4">
+    <!-- Logo -->
+    <img src="/logo.svg" class="my-auto" alt="logo" />
+
+    <!-- Toggle between Burger and Vector (Stroke) icons based on isOpen state -->
+    <img 
+      :src="isOpen ? '/Vector (Stroke).svg' : '/burger.svg'" 
+      @click="isOpen = !isOpen" 
+      class="my-auto cursor-pointer" 
+      alt="menu"
+    />
+  </div>
+
+  <!-- Transition for Mobile Menu -->
+  <transition name="fade-slide">
+    <div v-if="isOpen" class=" bg-[#F4EED3] w-full">
+      <ul class="text-[#00140F] font-montserrat text-[20px] font-[500px] leading-[32px] divide-y-2 divide-beige-2 px-5 text-center text-xl">
+
+        <!-- Our Work Link -->
+        <li class="py-4 cursor-pointer" @click="isOpen = false">
+          <NuxtLink 
+            to="#ourwork" 
+            :class="activeLink === 'ourwork' ? 'underline font-bold text-[#00140F]' : 'text-[#00140F]'"
+            @click.native="activeLink = 'ourwork'"
+          >
+            Our Work
+          </NuxtLink>
+        </li>
+
+        <!-- Platform Link -->
+        <li class="py-4 cursor-pointer" @click="isOpen = false">
+          <NuxtLink 
+            to="#platform" 
+            :class="activeLink === 'platform' ? 'underline font-bold text-[#00140F]' : 'text-[#00140F]'"
+            @click.native="activeLink = 'platform'"
+          >
+            Platform
+          </NuxtLink>
+        </li>
+
+        <!-- About Us Link -->
+        <li class="py-4 cursor-pointer" @click="isOpen = false">
+          <NuxtLink 
+            to="#aboutus" 
+            :class="activeLink === 'aboutus' ? 'underline font-bold text-[#00140F]' : 'text-[#00140F]'"
+            @click.native="activeLink = 'aboutus'"
+          >
+            About Us
+          </NuxtLink>
+        </li>
+
+        <!-- Contact Us Button -->
+        <li class="py-4 cursor-pointer" @click="isOpen = false">
+          <NuxtLink 
+            to="#contactus" 
+            :class="activeLink === 'contactus' ? 'underline font-bold text-[#00140F]' : 'text-[#00140F]'"
+            @click.native="activeLink = 'contactus'"
+          >
+            Contact Us
+          </NuxtLink>
+        </li>
+      </ul>
     </div>
-    <transition name="fade-slide">
-        <div v-if="isOpen" class="bg-beige-1 w-full">
-          <ul class="text-green divide-y-2 divide-beige-2 px-5 text-center text-xl">
-            <li class="py-4 cursor-pointer" @click="isOpen = false">Details</li>
-            <li class="py-4 cursor-pointer" @click="isOpen = false">Pricing</li>
-            <li class="py-4 cursor-pointer" @click="isOpen = false">Team</li>
-            <li class="py-4 font-bold cursor-pointer" @click="isOpen = false">Get in Touch</li>
-          </ul>
-        </div>
-      </transition>
-  </nav>
+  </transition>
+</nav>
+
 </template>
 
 <script setup lang="ts">

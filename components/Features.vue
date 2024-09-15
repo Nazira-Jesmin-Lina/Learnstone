@@ -104,7 +104,7 @@
     </div>
 
     <!-- Image Section -->
-    <div class="w-full h-[70vh] flex justify-center items-center transition delay-300">
+    <div class="w-full h-[70vh] 4xl:h-[45vh] flex justify-center items-center transition delay-300">
       <img
         :src="currentImage"
         alt="business"

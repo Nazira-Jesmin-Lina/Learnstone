@@ -1,5 +1,5 @@
 <template>
-    <div class="noise-bg rounded-b-[2rem] py-20 4xl:pb-10 justify-center items-center relative w-full pl-[3.5rem] 3xl:pl-[11rem] 4xl:pl-[14rem]">
+    <div class="noise-bg rounded-b-[2rem] py-20 4xl:pb-12 justify-center items-center relative w-full pl-[3.5rem] 3xl:pl-[11rem] 4xl:pl-[14rem]">
         <img src="/Decorative Dots.png" class="absolute bottom-2  w-full lg:w-[1000px] z-0 right-0 " />
         <div class="flex justify-center  items-center w-full relative z-20">
             <div class="w-full [text-#00140F] ml-20 3xl:ml-[200px] py-20 justify-center items-center">
@@ -24,8 +24,8 @@
                     </NuxtLink>      
                 </div>
             </div>
-            <div class="w-full 3xl:w-3/4">
-                <img src="/Visual.png" class="z-10 3xl:ml-[-300px] 4xl-w-[475px] w-full h-full object-contain" />
+            <div class="w-full 3xl:w-3/4 4xl:w-[70%]">
+                <img src="/Visual.png" class="z-10 3xl:ml-[-300px] 4xl-ml-[475px] w-full h-full object-contain" />
             </div>
         </div>
     </div>
