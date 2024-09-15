@@ -6,13 +6,13 @@
             <div class="flex-col items-center ">
           <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start w-full items-start">Our Work</h6>
           <h3 class="text-[40px] font-montserrat leading-[48px] mb-4 text-[#ffffff] text-start w-full items-start">Disrupting Current Solutions</h3>
-            <div class="flex flex-row-reverse items-center justify-center 3xl:pl-0 gap-4 3xl:gap-8">
-              <div class="flex ">
-                <div class="pr-12 4xl:pr-0 mt-10 relative ">
+            <div class="flex flex-row-reverse items-center justify-center 3xl:pl-0 gap-4 3xl:gap-8 ">
+              <div class="flex  ">
+                <div class="lg:pr-12 4xl:pr-0 mt-10 relative ">
                   <img src="/our_work_1.png" class="w-[572px] object-contain relative z-20" />
                   <img src="/Frame 204.png" class="absolute -top-6 right-[-4rem] 4xl:right-[-7rem] overflow-hidden transform -translate-y-1/3 z-10 w-[293px] 3xl:right-[-55px]" />
                   <div class=" ">               
-              </div>
+                  </div>
                 </div>
               </div>
               <div class="flex flex-col w-[572px] 4xl:w-[670px]">
@@ -33,14 +33,14 @@
   
           <div class="flex flex-row justify-center py-4 3xl:py-0 3xl:w-2/3 ">
             <img src="/Frame 206.png" class="lg:w-[200px] -mr-20 4xl:mr-[-100px] 3xl:mr-0 relative z-10 -top-1" />
-            <h3 class="text-center text-[#ffffff] font-semibold font-montserrat text-[32px] leading-[40px] mt-20 relative z-20 -ml-5 -mr-5 3xl:mr-0 3xl:ml-0">
+            <h3 class="text-center text-[#ffffff] font-semibold font-montserrat text-[32px] leading-[40px] mt-20 relative z-20 lg:-ml-5 lg:-mr-5 3xl:mr-0 3xl:ml-0">
               We aim to change that by offering <br>deeper, more meaningful insights.
             </h3>
-            <img src="/Frame 205.png" class="lg:w-[200px] -ml-20  4xl:ml-[-100px] relative z-10 top-5" />
+            <img src="/Frame 205.png" class="lg:w-[200px] lg:-ml-20  4xl:ml-[-100px] relative z-10 top-5" />
           </div>
 
           <div class=" items-center 3xl:w-2/3 4xl:w-3/5">
-            <div class="flex flex-row items-center justify-center pl-20 3xl:pl-0  gap-8">
+            <div class="flex flex-row items-center justify-center lg:pl-20 3xl:pl-0  gap-8">
               <div class="flex ">
                 <div class="">
                   <img src="/ourwork_1.png" class="w-[700px] 3xl:w-[572px] 4xl:w-[650px] object-contain" />
@@ -55,7 +55,7 @@
                 <p class="text-[#ffffff] text-left font-hind text-[16px] font-bold leading-[24px] tracking-[0.0075em] space-y-5 mb-5">
                   The real value comes from contextualizing this data:
                 </p>            
-                <ul class="text-[#ffffff] list-disc pl-8 text-left font-hind text-[16px] font-light leading-[24px] tracking-[0.0075em]">
+                <ul class="text-[#ffffff] list-disc lg:pl-8 text-left font-hind text-[16px] font-light leading-[24px] tracking-[0.0075em]">
                   <li>What are people saying about these programs?</li>
                   <li>How do employment trends align with program outcomes?</li>
                   <li>What do government statistics reveal about job market demand and typical professional trajectories?</li>
@@ -80,15 +80,15 @@
           <div class=" items-center 3xl:w-2/3 4xl:w-3/5">
             <div class="flex flex-row-reverse items-center justify-center px-20 3xl:pl-0 gap-4 3xl:gap-14 4xl:gap-8 3xl:pr-16 4xl:pr-0">
               <div class="flex ">
-                <div class="pr-14 3xl:pr-0 ">
+                <div class="lg:pr-14 3xl:pr-0 ">
                   <img src="/ourwork_2.png" class="w-[609px] 3xl:w-[750px] 4xl:w-[609px] object-contain" />
                 </div>
               </div>
-              <div class="flex flex-col pr-5  3xl:pr-0 w-[700px] 3xl:w-[646px] 4xl:w-[629px] ">
+              <div class="flex flex-col lg:pr-5  3xl:pr-0 w-[700px] 3xl:w-[646px] 4xl:w-[629px] ">
                 <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left mb-10">
                   Involving Human Expertise
                 </h4>        
-                 <p class="text-[#ffffff] font-montserrat text-[20px] font-medium leading-[32px] text-left">While AI is powerful and holds great promise, it’s not a complete replacement for human insight.</p>
+                 <p class="text-[#ffffff] font-montserrat text-[20px] font-medium leading-[32px] text-left">While AI is powerful and holds great promise, it's not a complete replacement for human insight.</p>
                 <img src="/Separator.png" class="lg:w-[550px] my-5 " />
                 <p class="text-[#ffffff] text-left font-hind text-[15px] font-normal leading-[24px] tracking-[0.0075em] mt-5">
                   We leverage cutting-edge technology to provide highly personalized recommendations, but we understand that reliable high-quality decisions often require a human touch. 
@@ -120,7 +120,7 @@
                   <img src="/ourwork_3.png" class="w-[700px] 3xl:w-[572px] 4xl:w-[650px] object-contain" />
                 </div>
               </div>
-              <div class="flex flex-col pr-10 3xl:pr-16 mr-20 3xl:mr-0 w-[700px] 3xl:w-[646px] 4xl:w-[800px] 4xl:pr-0">
+              <div class="flex flex-col lg:pr-10 3xl:pr-16 mr-20 3xl:mr-0 w-[700px] 3xl:w-[646px] 4xl:w-[800px] 4xl:pr-0">
                 <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left mb-10">
                   Leveraging Machine Learning
                 </h4>        

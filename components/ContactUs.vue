@@ -42,7 +42,7 @@
         </div>
       
         <!-- Right Section (Form) -->
-        <div class="w-3/4 mt-[115px] pr-20 4xl:pr-0 relative">
+        <div class="w-3/4 mt-[115px] lg:pr-20 4xl:pr-0 relative">
           <div class="relative mt-[12px]">
             <h5 class="font-montserrat font-semibold  text-[20px]">Send Us a Message</h5>
 
@@ -57,10 +57,15 @@
             :class="{
               'border-black': !emailError && email.length > 0
             }"
-            class="w-full border border-gray-300 rounded-lg px-4 py-2"
+            class="w-full border border-gray-300 rounded-lg lg:px-4 py-2"
             placeholder="Enter your business mail"
           />
-          <p v-if="emailError" class="text-red-500 text-sm pt-4">Please enter a valid email address (e.g. example@mail.com).</p>
+          <p v-if="emailError" class="text-red-500 text-sm pt-4 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10.29 3.86l-8 14A1 1 0 003 19h18a1 1 0 00.86-1.5l-8-14a1 1 0 00-1.72 0zM12 9v4m0 4h.01"/>
+  </svg>
+            Please enter a valid email address (e.g. example@mail.com).
+          </p>
         </div>
 
         <!-- Subject Field -->
@@ -72,7 +77,7 @@
             :class="{
               'border-black': subject.length > 0 && subject.length <= 100
             }"
-            class="w-full border border-gray-300 rounded-lg px-4 py-2"
+            class="w-full border border-gray-300 rounded-lg lg:px-4 py-2"
             placeholder="Add the subject of your message"
           />
           <div class="flex justify-between items-center flex-row-reverse pt-2">
@@ -92,7 +97,7 @@
             :class="{
               'border-black': message.length > 0 && message.length <= 500,
             }"
-            class="w-full border border-gray-300 rounded-lg px-4 py-2 overflow-y-scroll custom-scrollbar"
+            class="w-full border border-gray-300 rounded-lg lg:px-4 py-2 overflow-y-scroll custom-scrollbar"
             rows="5"
             placeholder="Placeholder"
           ></textarea>
@@ -103,14 +108,20 @@
                 class="font-hind text-right text-[12px]">
               {{ message.length }}/500
             </div>
-            <p v-if="message.length > 500" class="text-red-500 text-sm">Message cannot exceed 500 characters.</p>
+            
+            <p v-if="message.length > 500" class="text-red-500 text-sm pt-4 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.29 3.86l-8 14A1 1 0 003 19h18a1 1 0 00.86-1.5l-8-14a1 1 0 00-1.72 0zM12 9v4m0 4h.01"/>
+            </svg>
+            Message cannot exceed 500 characters.
+            </p>
           </div>
         </div>
 
 
         <!-- Submit Button -->
         <div class="text-right justify-center my-auto items-center">
-          <button type="submit" class="bg-[#FF5F45] text-white px-6 py-3 rounded-lg text-xl font-semibold btn-primary">Send Message <span class="items-center justify-center text-xl">></span> </button>
+          <button type="submit" class="bg-[#FF5F45] text-white lg:px-6 py-3 rounded-lg text-xl font-semibold btn-primary">Send Message <span class="items-center justify-center text-xl">></span> </button>
         </div>
       </form>
 
