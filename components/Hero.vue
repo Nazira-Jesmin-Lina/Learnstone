@@ -1,8 +1,8 @@
 <template>
-    <div class="noise-bg rounded-b-[2rem] py-20 justify-center items-center relative w-full pl-[3.5rem] 3xl:pl-[12rem]">
+    <div class="noise-bg rounded-b-[2rem] py-20 justify-center items-center relative w-full pl-[3.5rem] 3xl:pl-[14rem]">
         <img src="/Decorative Dots.png" class="absolute bottom-2  w-full lg:w-[1000px] z-0 right-0 " />
         <div class="flex justify-center  items-center w-full relative z-20">
-            <div class="w-full [text-#00140F] ml-20 3xl:ml-[190px] py-20 justify-center items-center">
+            <div class="w-full [text-#00140F] ml-20 3xl:ml-[200px] py-20 justify-center items-center">
                 <h1 class="text-[48px] max-w-[671px] font-montserrat font-semibold leading-[56px] pr-16">
                     Empowering Students and Young Professionals to Find the Right Stepping Stone
                 </h1>
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="w-full 3xl:w-3/4 ">
-                <img src="/Visual.png" class="z-10 3xl:ml-[-270px] w-full h-full object-contain" />
+                <img src="/Visual.png" class="z-10 3xl:ml-[-350px] w-full h-full object-contain" />
             </div>
         </div>
     </div>
