@@ -22,6 +22,7 @@ module.exports = {
       screens: {
         '3xl': '1920px',  // Adjust the pixel value as needed
         '4xl': '2560px',  // Example for even larger screens
+        'sm' : '375px'
       },
       colors: {
         "green": '#374F37',

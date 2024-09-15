@@ -1,5 +1,5 @@
 <template>
-    <div id="contactus" class="flex items-start justify-between bg-[#F4EED3] pl-[8.5rem] py-24 pr-10 rounded-t-[2rem] relative">
+    <div id="contactus" class="flex items-start justify-between bg-[#F4EED3] pl-[8.5rem] 3xl:px-[22rem] py-24 pr-10 rounded-t-[2rem] relative">
         <!-- Left Section (Text and Address) -->
         <img src="/Decorative Dots_b.png" class="absolute  bottom-0 w-1/2 h-full  z-0 left-[-150px]" />
         <div class="w-1/2  relative z-10">

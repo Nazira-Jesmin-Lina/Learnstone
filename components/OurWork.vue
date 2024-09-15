@@ -1,6 +1,6 @@
 <template>
     
-        <div id="ourwork" class=" pl-[3.5rem] bg-[#21463C] mx-auto lg:flex gap-4 xl:gap-16 relative justify-center items-center pb-10 z-0 flex flex-col ">
+        <div id="ourwork" class="pl-[3.5rem] bg-[#21463C] mx-auto lg:flex gap-4 xl:gap-16 relative justify-center items-center pb-10 z-0 flex flex-col ">
   
           <div class="my-auto text-black  justify-start  items-center">
             <p class="text-[20px] text-[#FF5F45] mt-20 font-montesserat font-semibold ">Our Work</p>
@@ -38,13 +38,13 @@
 
           <div class=" items-center">
 
-            <div class="flex flex-row items-center pl-20">
+            <div class="flex flex-row items-center pl-20 3xl:pl-[80px]">
               <div class="">
                 <div class="w-11/12">
-                  <img src="/ourwork_1.png" class="w-[700px] " />
+                  <img src="/ourwork_1.png" class="w-[700px] 3xl:w-[600px] " />
                 </div>
               </div>
-              <div class="flex flex-col pr-10 mr-20 w-[700px] ">
+              <div class="flex flex-col pr-10 mr-20 w-[700px] 3xl:w-[620px]">
                 <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left mb-10">
                   With Exhaustive Contextual Data
                 </h4>        
@@ -78,15 +78,11 @@
 
           
 
-          <div class=" items-center pt-5">
+          <div class=" items-center pt-5   ">
 
-            <div class="flex flex-row-reverse px-20 -pr-20 gap-20 items-center">
-              <div  class="-mr-20 overflow-hidden">
-                <div class="w-11/12 pr-20">
-                  <img src="/ourwork_2.png" class="w-[800px] " />
-                </div>
-              </div>
-              <div class="flex flex-col justify-end w-[700px]">
+            <div class="flex flex-row  gap-10  items-center pl-20 3xl:pl-[80px]">
+              
+              <div class="flex flex-col justify-end w-[700px] 3xl:w-[620px] ">
                 <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left mb-10">
                   Involving Human Expertise
                 </h4>
@@ -113,6 +109,12 @@
                   
                 </div>
               </div>
+
+              <div  class=" ">
+                <div class="w-11/12 pr-20">
+                  <img src="/ourwork_2.png" class="w-[700px] 3xl:w-[600px]" />
+                </div>
+              </div>
             </div>
 
           </div>
@@ -120,13 +122,13 @@
 
           <div class=" items-center pt-5 pb-20">
 
-            <div class="flex flex-row items-center pl-20 mb-20">
+            <div class="flex flex-row items-center pl-20 mb-20 3xl:pl-[80px]">
               <div class="">
                 <div class="w-11/12">
-                  <img src="/ourwork_3.png" class="w-[700px] " />
+                  <img src="/ourwork_3.png" class="w-[700px] 3xl:w-[600px] " />
                 </div>
               </div>
-              <div class="flex flex-col pr-10 mr-20 w-[700px]">
+              <div class="flex flex-col pr-10 mr-20 w-[700px] 3xl:w-[620px]">
                 <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left mb-10">
                   Leveraging Machine Learning
                 </h4>
