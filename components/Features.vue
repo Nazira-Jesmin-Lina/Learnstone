@@ -13,7 +13,7 @@
             <i :class="isAccordionOpen(1) ? 'fas fa-minus' : 'fas fa-plus'"></i>
           </Button>
         </div>
-        <div v-show="isAccordionOpen(1)" class="w-full py-4 rounded font-hind font-light text-md text-[#00140F] flex-col space-y-4">
+        <div v-show="isAccordionOpen(1)" class="w-full py-4 3xl:pt-12 rounded font-hind font-light text-md text-[#00140F] flex-col space-y-4">
           <p>Our platform leverages cutting-edge semantic models that enable users to search in plain English, bypassing the limitations of traditional keyword matching.</p>
           <p>Whether searching for a graduate program, a professional course, or any other learning opportunity, users can simply describe what they're looking for in their own words.</p>
         </div>
@@ -30,7 +30,7 @@
             <i :class="isAccordionOpen(2) ? 'fas fa-minus' : 'fas fa-plus'"></i>
           </Button>
         </div>
-        <div v-show="isAccordionOpen(2)" class="w-full py-4 rounded flex-col space-y-4">
+        <div v-show="isAccordionOpen(2)" class="w-full py-4 3xl:pt-12 rounded flex-col space-y-4">
           <p class="font-hind font-light text-md text-[#00140F]">
             Once a user chooses an opportunity of interest — such as a graduate course or professional program — our platform offers far more than just the official program specifications.
           </p>
@@ -51,7 +51,7 @@
             <i :class="isAccordionOpen(3) ? 'fas fa-minus' : 'fas fa-plus'"></i>
           </Button>
         </div>
-        <div v-show="isAccordionOpen(3)" class="w-full py-4 rounded font-hind font-light text-md text-[#00140F] flex-col space-y-4">
+        <div v-show="isAccordionOpen(3)" class="w-full py-4 3xl:pt-12 rounded font-hind font-light text-md text-[#00140F] flex-col space-y-4">
           <p>Users can create in-depth profiles that capture their complete academic and professional journey, from past achievements to current skills and future aspirations. </p>
           <p>By including details such as education history, work experience, and areas of interest, users allow the platform to gain a nuanced understanding of their unique position.</p>
         </div>
@@ -68,7 +68,7 @@
             <i :class="isAccordionOpen(4) ? 'fas fa-minus' : 'fas fa-plus'"></i>
           </Button>
         </div>
-        <div v-show="isAccordionOpen(4)" class="w-full py-4 rounded flex-col space-y-4">
+        <div v-show="isAccordionOpen(4)" class="w-full py-4 3xl:pt-12 rounded flex-col space-y-4">
           <p class="font-hind font-light text-md text-[#00140F]">
             As users interact with the platform, our recommendation engine learns from their preferences, offering ever more relevant and curated suggestions
           </p>
@@ -89,7 +89,7 @@
             <i :class="isAccordionOpen(5) ? 'fas fa-minus' : 'fas fa-plus'"></i>
           </Button>
         </div>
-        <div v-show="isAccordionOpen(5)" class="w-full py-4 rounded font-hind font-light text-md text-[#00140F] flex-col space-y-4">
+        <div v-show="isAccordionOpen(5)" class="w-full py-4 3xl:pt-12 rounded font-hind font-light text-md text-[#00140F] flex-col space-y-4">
           <p>
             When key decisions arise, our high-resolution guidance feature lets users request targeted, personalized advice on specific opportunities without committing to full-service packages.
           </p>
