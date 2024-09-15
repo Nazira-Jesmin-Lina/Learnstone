@@ -1,6 +1,6 @@
 <template>
   <div id="contactus"
-    class="flex items-start justify-between bg-[#F4EED3] lg:pl-[8.5rem] 3xl:px-[23.5rem] 4xl:px-[27rem] lg:py-24 rounded-t-[2rem] relative">
+    class="flex items-start justify-between bg-[#F4EED3] px-4 lg:px-0 lg:pl-[8.5rem] 3xl:px-[23.5rem] 4xl:px-[27rem] py-12 lg:py-24 rounded-t-[2rem] relative">
     <!-- Left Section (Text and Address) -->
     <img src="/Decorative Dots_b.png" class="absolute hidden lg:flex bottom-0 w-1/2 h-full  z-0 left-[-150px]" />
     <img src='/Mask group.svg' class="absolute z-0 top-0 right-0" />
@@ -43,7 +43,7 @@
       </div>
     </div>
     <!-- Right Section (Form) -->
-    <div class="w-full lg:w-3/4 mt-[115px] lg:pr-20 4xl:pr-0 ">
+    <div class="w-full lg:w-3/4 mt-16 lg:mt-[115px] lg:pr-20 4xl:pr-0 ">
       <div class="relative lg:mt-[12px]">
         <h5 class="font-montserrat font-semibold  text-[20px]">Send Us a Message</h5>
         <form @submit.prevent="handleSubmit" class="mt-6 space-y-4">
@@ -104,9 +104,9 @@
             </div>
           </div>
           <!-- Submit Button -->
-          <div class="text-right justify-center my-auto items-center">
+          <div class="text-right justify-center my-auto items-center w-full lg:w-fit">
             <button type="submit"
-              class="bg-[#FF5F45] text-white lg:px-6 py-3 rounded-lg text-xl font-semibold btn-primary">Send Message
+              class="bg-[#FF5F45] w-full lg:w-fit text-white lg:px-6 py-3 rounded-lg text-xl font-semibold btn-primary">Send Message
               <span class="items-center justify-center text-xl">></span> </button>
           </div>
         </form>

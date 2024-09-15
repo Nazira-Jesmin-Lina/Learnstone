@@ -1,5 +1,5 @@
 <template>
-<div class="items-center justify-center w-full">
+<div class="px-4 lg:px-0 items-center justify-center w-full">
           <div id="aboutus" class="bg-[#21463C] pb-20 4xl:pb-16 items-center justify-center flex flex-col w-full">
             <div class=" text-black lg:px-[8.5rem] 3xl:px-[23.5rem] 4xl:px-[27rem] justify-center items-center w-full ">
               <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start mt-[5.5rem] pb-2">About Us</h6>
@@ -16,7 +16,7 @@
                   </div>
                   <div class="relative w-full 3xl:w-5/6 4xl:pl-6  items-center justify-center">
                     <img src="/Image (5).png" class="relative w-[343px] lg:w-[600px] object-contain z-10" />
-                    <img src="/Frame 204.png" class="absolute -top-24 lg:-right-[6rem] z-0 lg:w-[270px] " />
+                    <img src="/Frame 204.png" class="absolute -top-[50px] lg:-top-24 -right-[0.5rem] lg:-right-[6rem] z-0 w-[176px] lg:w-[270px] " />
                   </div>
                 </div>
               </div>
@@ -33,7 +33,7 @@
                   </div>
                   <div class="w-full 3xl:w-5/6 3xl:pl-6 4xl:pl-4  relative">
                     <img src="/Image (6).png" class="w-[343px] lg:w-[650px] 4xl:w-[572px] object-contain z-10 relative" />
-                    <img src="/Frame 205_2.png" class="absolute lg:-bottom-[3.5rem] lg:-left-[4.5rem] transform translate-x-4 z-0 lg:w-[200px]" />
+                    <img src="/Frame 205_2.png" class="absolute -bottom-8 -left-3 lg:-bottom-[3.5rem] lg:-left-[4.5rem] lg:transform lg:translate-x-4 z-0 w-[176px] lg:w-[200px]" />
                   </div>
                 </div>
               </div>

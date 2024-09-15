@@ -1,6 +1,6 @@
 <template>
   <div id="platform"
-    class="bg-[#F4EED3] pt-16 rounded-[2rem] pb-4 3xl:pb-16 4xl:pb-8 z-10 relative lg:pl-[8.5rem] 3xl:px-[23.5rem] 4xl:px-[27rem]">
+    class="bg-[#F4EED3] px-4 lg:px-0 pt-16 rounded-[2rem] pb-4 3xl:pb-16 4xl:pb-8 z-10 relative lg:pl-[8.5rem] 3xl:px-[23.5rem] 4xl:px-[27rem]">
     <img src='/Mask group.svg' class="absolute 4xl:w-3/5  z-0 top-0 right-0" />
     <div class="text-black relative z-20 flex flex-col items-start justify-center">
       <p class="text-[20px] text-[#FF5F45] font-montserrat font-semibold">Platform</p>
@@ -13,7 +13,7 @@
             <div class="flex justify-between ">
               <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Semantic Search</h3>
               <Button @click="toggleAccordion(1)"
-                class="lg:px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
+                class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
                 <i :class="isAccordionOpen(1) ? 'fas fa-minus' : 'fas fa-plus'"></i>
               </Button>
             </div>
@@ -35,7 +35,7 @@
             <div class="flex justify-between">
               <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Derivative Insights</h3>
               <Button @click="toggleAccordion(2)"
-                class="lg:px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
+                class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
                 <i :class="isAccordionOpen(2) ? 'fas fa-minus' : 'fas fa-plus'"></i>
               </Button>
             </div>
@@ -61,7 +61,7 @@
             <div class="flex justify-between">
               <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Deep Profile</h3>
               <Button @click="toggleAccordion(3)"
-                class="lg:px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
+                class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
                 <i :class="isAccordionOpen(3) ? 'fas fa-minus' : 'fas fa-plus'"></i>
               </Button>
             </div>
@@ -84,7 +84,7 @@
             <div class="flex justify-between">
               <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">User Centered</h3>
               <Button @click="toggleAccordion(4)"
-                class="lg:px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
+                class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
                 <i :class="isAccordionOpen(4) ? 'fas fa-minus' : 'fas fa-plus'"></i>
               </Button>
             </div>
@@ -110,7 +110,7 @@
             <div class="flex justify-between">
               <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">High-Resolution Guidance</h3>
               <Button @click="toggleAccordion(5)"
-                class="lg:px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
+                class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
                 <i :class="isAccordionOpen(5) ? 'fas fa-minus' : 'fas fa-plus'"></i>
               </Button>
             </div>
@@ -137,7 +137,7 @@
         </div>
 
         <!-- Image Section -->
-        <div class="hidden w-full h-[70vh] 4xl:h-[45vh] lg:flex justify-center items-center transition delay-300">
+        <div class="hidden lg:pr-40 3xl:pr-0 w-full h-[70vh] 4xl:h-[45vh] lg:flex justify-center items-center transition delay-300">
           <img :src="currentImage" alt="business"
             class="h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-105" />
         </div>

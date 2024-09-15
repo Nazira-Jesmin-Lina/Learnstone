@@ -30,7 +30,7 @@
 
   <!-- Mobile Navbar -->
   <nav
-    class="lg:hidden bg-[#F4EED3] text-[#00140F] fixed top-0 left-0 z-[99999] rounded-b-3xl border-b-[#DBCCB1] border-b-[1px] w-full">
+    class="lg:hidden bg-[#F4EED3] text-[#00140F] fixed top-0 left-0 z-[99999] rounded-b-3xl  border-b-[#DBCCB1] border-b-[1px] w-full">
     <div class="flex justify-between p-4">
       <!-- Logo -->
       <img src="/logo.svg" class="my-auto" alt="logo" />
