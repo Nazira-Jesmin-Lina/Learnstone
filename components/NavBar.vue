@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top-0 left-0 w-full  bg-[#F4EED3] lg:flex justify-between w-3/2 px-20 pt-4 pb-2 z-[99999] rounded-b-3xl border-b-[#DBCCB1] border-b-[1px]">
+  <nav class="sm:hidden fixed top-0 left-0 w-full  bg-[#F4EED3] lg:flex justify-between w-3/2 px-20 pt-4 pb-2 z-[99999] rounded-b-3xl border-b-[#DBCCB1] border-b-[1px]">
     <img src="/logo.svg" class="my-auto" alt="logo" />
 
     <div class="flex gap-2">
@@ -36,6 +36,23 @@
 </NuxtLink>
 
     </div>
+  </nav>
+
+  <nav class="lg:hidden  bg-[#F4EED3] fixed top-0 left-0 z-[99999] rounded-b-3xl border-b-[#DBCCB1] border-b-[1px] w-full">
+    <div class="flex justify-between p-4">
+      <img src="/logo.svg"  class="my-auto" alt="logo" />
+      <img src="/burger.svg" @click="()=> isOpen = !isOpen" class="my-auto cursor-pointer" alt="logo" />
+    </div>
+    <transition name="fade-slide">
+        <div v-if="isOpen" class="bg-beige-1 w-full">
+          <ul class="text-green divide-y-2 divide-beige-2 px-5 text-center text-xl">
+            <li class="py-4 cursor-pointer" @click="isOpen = false">Details</li>
+            <li class="py-4 cursor-pointer" @click="isOpen = false">Pricing</li>
+            <li class="py-4 cursor-pointer" @click="isOpen = false">Team</li>
+            <li class="py-4 font-bold cursor-pointer" @click="isOpen = false">Get in Touch</li>
+          </ul>
+        </div>
+      </transition>
   </nav>
 </template>
 
