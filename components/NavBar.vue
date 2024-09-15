@@ -6,19 +6,19 @@
       <div class="flex text-[#00140F] text-[16px] text-lg font-medium px-8 py-1">
         <NuxtLink 
           to="#ourwork" 
-          :class="activeLink === 'ourwork' ? 'underline my-auto px-2 hover:text-[#555C5A]' : 'my-auto px-2 hover:text-[#555C5A]'"
+          :class="activeLink === 'ourwork' ? 'underline my-auto px-2 hover:text-[#555C5A]' : 'my-auto px-2 hover:text-[#555C5A] hover:underline'"
         >
           Our Work
         </NuxtLink>
         <NuxtLink 
           to="#platform" 
-          :class="activeLink === 'platform' ? 'underline my-auto px-2 hover:text-[#555C5A]' : 'my-auto px-2 hover:text-[#555C5A]'"
+          :class="activeLink === 'platform' ? 'underline my-auto px-2 hover:text-[#555C5A]' : 'my-auto px-2 hover:text-[#555C5A] hover:underline'"
         >
           Platform
         </NuxtLink>
         <NuxtLink 
           to="#aboutus" 
-          :class="activeLink === 'aboutus' ? 'underline my-auto px-2 hover:text-[#555C5A]' : 'my-auto px-2 hover:text-[#555C5A]'"
+          :class="activeLink === 'aboutus' ? 'underline my-auto px-2 hover:text-[#555C5A]' : 'my-auto px-2 hover:text-[#555C5A] hover:underline'"
         >
           About Us
         </NuxtLink>
@@ -119,7 +119,8 @@ const activeLink = ref('');
 
 // Function to handle scroll and detect the active section
 const handleScroll = () => {
-  const sections = document.querySelectorAll('div[id]');
+  // Select any element with an id
+  const sections = document.querySelectorAll('[id]');
   const scrollPos = window.scrollY + 150; // Adjust the offset as needed
 
   sections.forEach((section) => {
@@ -132,6 +133,7 @@ const handleScroll = () => {
     }
   });
 };
+
 
 // Add and remove scroll listener
 onMounted(() => {

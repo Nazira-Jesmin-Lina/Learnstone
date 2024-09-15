@@ -11,7 +11,7 @@
       <div class=" -mt-20">
       
         <!-- Core Feature -->
-        <div id="platform" class="bg-[#F4EED3] pt-16 rounded-[2rem] pb-4 3xl:pb-16 4xl:pb-8 z-10 relative pl-[8.5rem] 3xl:px-[23.5rem] 4xl:px-[27rem]">
+        <div id="platform" class="bg-[#F4EED3] pt-16 rounded-[2rem] pb-4 3xl:pb-16 4xl:pb-8 z-10 relative lg:pl-[8.5rem] 3xl:px-[23.5rem] 4xl:px-[27rem]">
           <img src='/Mask group.svg' class="absolute 4xl:w-3/5  z-0 top-0 right-0"/>
           <div class="text-black relative z-20 flex flex-col items-start justify-center">
             <p class="text-[20px] text-[#FF5F45] font-montserrat font-semibold">Platform</p>

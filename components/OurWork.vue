@@ -1,6 +1,6 @@
 <template>
     
-        <div id="ourwork" class="pl-[3.5rem] 3xl:pl-[4rem] 4xl:pl-[0] bg-[#21463C] lg:flex gap-16 relative justify-center items-center pb-10 z-0 flex flex-col 3xl:w-full">
+        <div id="ourwork" class="lg:pl-[3.5rem] 3xl:pl-[4rem] 4xl:pl-[0] bg-[#21463C] lg:flex gap-16 relative justify-center items-center pb-10 z-0 flex flex-col 3xl:w-full">
               
           <div class=" items-center 3xl:w-2/3 4xl:w-3/5 pt-20">
             <div class="flex-col items-center ">

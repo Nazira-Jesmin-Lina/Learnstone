@@ -60,7 +60,7 @@
       <!-- Accordion 4 -->
       <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
         <div class="flex justify-between">
-          <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Derivative Insights</h3>
+          <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">User Centered</h3>
           <Button
             @click="toggleAccordion(4)"
             class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
@@ -81,7 +81,7 @@
       <!-- Accordion 5 -->
       <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
         <div class="flex justify-between">
-          <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">Deep Profile</h3>
+          <h3 class="font-semibold font-montserrat text-2xl text-[#00140F]">High-Resolution Guidance</h3>
           <Button
             @click="toggleAccordion(5)"
             class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none"
@@ -142,7 +142,7 @@ const currentImage = computed(() => {
     case 4:
       return "Image Placeholder.svg";
     case 5:
-      return "Image Placeholder (1).svg";
+      return "Image Placeholder (5).svg";
     default:
       return "Image Placeholder.png"; // Default image if no accordion is open
   }
