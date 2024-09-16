@@ -28,9 +28,9 @@
                     </NuxtLink>
                 </div>
             </div>
-            <div class="w-full 3xl:w-3/4 4xl:w-[70%] flex items-center justify-center ">
+            <div class="w-full 3xl:w-2/3 4xl:w-1/2 flex items-center justify-center ">
                 <img src="/Visual copy.svg"
-                    class="hidden lg:flex 3xl:ml-[-450px] 3xl:py-16  4xl:ml-[-595px] lg:pr-32 lg:py-8 w-full h-full lg:object-contain" />
+                    class="hidden lg:flex 3xl:ml-[-450px] 3xl:py-2  4xl:py-16 4xl:ml-[-595px] lg:pr-32 lg:py-6 w-full h-full lg:object-contain" />
                 <img src="/Visual.svg"
                     class="flex lg:hidden w-full h-full object-contain" />
             </div>

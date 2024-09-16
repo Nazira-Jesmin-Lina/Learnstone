@@ -1,7 +1,7 @@
 <template>
   <div id="ourwork"
     class="px-4 lg:px-0 lg:pl-[3.5rem] 3xl:pl-[4rem] 4xl:pl-[0] bg-[#21463C] lg:flex lg:gap-8 3xl:gap-12  gap:14 relative justify-center items-center pb-0 z-0 flex flex-col 3xl:w-full">
-    <div class=" items-center 3xl:w-2/3 4xl:w-3/5 lg:pt-20 pt-8">
+    <div class=" items-center 3xl:w-2/3 4xl:w-3/5 lg:pt-24 pt-8">
       <div class="flex-col items-center ">
         <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start w-full items-start">Our Work</h6>
         <h3 class="text-[40px] font-montserrat leading-[48px] mb-4 text-[#ffffff] text-start w-full items-start">
@@ -129,7 +129,7 @@
         </div>
       </div>
     </div>
-    <div class=" items-center 3xl:w-2/3 pb-10 lg:pb-40 3xl:pb-20 4xl:w-3/5 mt-10 lg:mt-5">
+    <div class=" items-center 3xl:w-2/3 pb-10 lg:pb-40 3xl:pb-20 4xl:w-3/5 mt-10 lg:mt-10">
       <div class="flex flex-col lg:flex-row items-center justify-center lg:pl-20 3xl:pl-0 gap-8">
         <div class="flex ">
           <div class="">
