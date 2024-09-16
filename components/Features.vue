@@ -11,7 +11,7 @@
           <!-- Accordion 1 -->
           <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
             <div class="flex justify-between ">
-              <h3 class="font-semibold font-montserrat text-[20px] text-[#00140F]">Semantic Search</h3>
+              <h3 @click="toggleAccordion(1)" class="font-semibold font-montserrat text-[20px] text-[#00140F] cursor-pointer">Semantic Search</h3>
               <Button @click="toggleAccordion(1)"
                 class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
                 <i :class="isAccordionOpen(1) ? 'fas fa-minus' : 'fas fa-plus'"></i>
@@ -33,7 +33,7 @@
           <!-- Accordion 2 -->
           <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
             <div class="flex justify-between">
-              <h3 class="font-semibold font-montserrat text-[20px] text-[#00140F]">Derivative Insights</h3>
+              <h3 @click="toggleAccordion(2)" class="font-semibold font-montserrat text-[20px] text-[#00140F] cursor-pointer">Derivative Insights</h3>
               <Button @click="toggleAccordion(2)"
                 class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
                 <i :class="isAccordionOpen(2) ? 'fas fa-minus' : 'fas fa-plus'"></i>
@@ -59,7 +59,7 @@
           <!-- Accordion 3 -->
           <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
             <div class="flex justify-between">
-              <h3 class="font-semibold font-montserrat text-[20px] text-[#00140F]">Deep Profile</h3>
+              <h3 @click="toggleAccordion(3)" class="font-semibold font-montserrat text-[20px] text-[#00140F] cursor-pointer">Deep Profile</h3>
               <Button @click="toggleAccordion(3)"
                 class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
                 <i :class="isAccordionOpen(3) ? 'fas fa-minus' : 'fas fa-plus'"></i>
@@ -82,7 +82,7 @@
           <!-- Accordion 4 -->
           <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
             <div class="flex justify-between">
-              <h3 class="font-semibold font-montserrat text-[20px] text-[#00140F]">User Centered</h3>
+              <h3 @click="toggleAccordion(4)" class="font-semibold font-montserrat text-[20px] text-[#00140F] cursor-pointer">User Centered</h3>
               <Button @click="toggleAccordion(4)"
                 class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
                 <i :class="isAccordionOpen(4) ? 'fas fa-minus' : 'fas fa-plus'"></i>
@@ -108,7 +108,7 @@
           <!-- Accordion 5 -->
           <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
             <div class="flex justify-between">
-              <h3 class="font-semibold font-montserrat text-[20px] text-[#00140F]">High-Resolution Guidance</h3>
+              <h3 @click="toggleAccordion(5)" class="font-semibold font-montserrat text-[20px] text-[#00140F] cursor-pointer">High-Resolution Guidance</h3>
               <Button @click="toggleAccordion(5)"
                 class="px-2 py-[1px] bg-[#EBDFCE] rounded-full text-[#00140F] hover:bg-[#DBCCB1] focus:outline-none">
                 <i :class="isAccordionOpen(5) ? 'fas fa-minus' : 'fas fa-plus'"></i>
