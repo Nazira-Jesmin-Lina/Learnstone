@@ -5,7 +5,7 @@
     <div class="text-black relative z-20 flex flex-col items-start justify-center">
       <p class="text-[20px] text-[#FF5F45] font-montserrat font-semibold">Platform</p>
       <h2 class="font-montserrat lg:text-[40px] text-[32px] font-semibold leading-[48px]">Core Features</h2>
-      <div class="flex w-full justify-center items-center py-14 3xl:py-8 4xl:py-0 ">
+      <div class="flex w-full justify-center items-center py-10 3xl:py-8 4xl:py-0 ">
         <!-- Button Section -->
         <div class="w-full flex flex-col items-center lg:pr-40 ">
           <!-- Accordion 1 -->

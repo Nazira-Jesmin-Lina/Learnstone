@@ -16,7 +16,7 @@
             <h4 class="font-montserrat text-[#A2FF48] text-2xl tracking-wide font-semibold leading-[36px] text-left lg:mb-10 mb-5">
               The problem we're addressing isn't new.
             </h4>
-            <p class="text-[#ffffff] font-hind text-base font-extralight
+            <p class="text-[#ffffff] font-hind text-base font-extralight leading-5 lg:leading-6
               text-left">
               Students and young professionals have always faced overwhelming choices that will multiple over time, and
               a lack of clear guidance when planning their next steps.
@@ -66,13 +66,13 @@
             The real value comes from contextualizing this data:
           </p>
           <ul
-            class="text-[#ffffff] list-disc pl-5 lg:pl-8 text-left font-hind text-base font-extralight
+            class="text-[#ffffff] list-disc pl-5 lg:pl-8 text-left font-hind text-base font-extralight leading-5 lg:leading-6
              ">
             <li>What are people saying about these programs?</li>
             <li>How do employment trends align with program outcomes?</li>
             <li>What do government statistics reveal about job market demand and typical professional trajectories?</li>
           </ul>
-          <p class="font-hind text-base font-extralight
+          <p class="font-hind text-base font-extralight leading-5 lg:leading-6
             text-left text-white mt-5">
             By leveraging diverse data sources beyond basic listings, we deliver deeper, more meaningful insights that
             other platforms overlook.
@@ -105,17 +105,17 @@
           <p class="text-[#ffffff] font-montserrat text-xl font-normal tracking-wide">While AI is
             powerful and holds great promise, it's not a complete replacement for human insight.</p>
           <img src="/Separator.png" class="lg:w-[550px] lg:my-5 my-6 " />
-          <p class="font-hind text-base font-extralight
+          <p class="font-hind text-base font-extralight leading-5 lg:leading-6
             text-left text-white  lg:mt-5 mt-0">
             We leverage cutting-edge technology to provide highly personalized recommendations, but we understand that
             reliable high-quality decisions often require a human touch.
           </p>
-          <p class="font-hind text-base font-extralight
+          <p class="font-hind text-base font-extralight leading-5 lg:leading-6
             text-left text-white  mt-5">
             That's why we partner with third-party agencies and independent consultants through our marketplace,
             offering users price-competitive, expert advice for the final, critical, steps.
           </p>
-          <p class="font-hind text-base font-extralight
+          <p class="font-hind text-base font-extralight leading-5 lg:leading-6
             text-left text-white  mt-5">
             By combining AI-driven insights with human expertise, we set the grounds for the best possible outcomes for
             each user.
@@ -149,11 +149,11 @@
             process and model vast amounts of unstructured data at scale.
           </p>
           <img src="/Separator.png" class="w-[550px] 3xl:w-[580px] my-5 " />
-          <p class="font-hind text-base font-extralight  text-left text-white  lg:mt-5 mt-0">
+          <p class="font-hind text-base font-extralight leading-5 lg:leading-6  text-left text-white  lg:mt-5 mt-0">
             This enables us to semantically understand and assess learning opportunities in ways that were previously
             unimaginable.
           </p>
-          <p class="font-hind text-base font-extralight  text-left text-white mt-5">
+          <p class="font-hind text-base font-extralight leading-5 lg:leading-6  text-left text-white mt-5">
             We don't just recommend opportunities - we connect you to the ones that genuinely fit your goals and
             context.
           </p>
