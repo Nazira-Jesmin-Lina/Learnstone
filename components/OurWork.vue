@@ -1,7 +1,7 @@
 <template>
   <div id="ourwork"
-    class="px-4 lg:px-0 lg:pl-[3.5rem] 3xl:pl-[4rem] 4xl:pl-[0] bg-[#21463C] lg:flex gap-16 relative justify-center items-center lg:pb-10 pb-0 z-0 flex flex-col 3xl:w-full">
-    <div class=" items-center 3xl:w-2/3 4xl:w-3/5 pt-20">
+    class="px-4 lg:px-0 lg:pl-[3.5rem] 3xl:pl-[4rem] 4xl:pl-[0] bg-[#21463C] lg:flex lg:gap-16 gap:14 relative justify-center items-center pb-0lg:pb-10  z-0 flex flex-col 3xl:w-full">
+    <div class=" items-center 3xl:w-2/3 4xl:w-3/5 lg:pt-20 pt-8">
       <div class="flex-col items-center ">
         <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start w-full items-start">Our Work</h6>
         <h3 class="text-[40px] font-montserrat leading-[48px] mb-4 text-[#ffffff] text-start w-full items-start">
@@ -13,7 +13,7 @@
               class="absolute -top-12 lg:-top-6 -right-[10px] lg:right-[-4rem] 4xl:right-[-7rem] overflow-hidden lg:transform lg:-translate-y-1/3 z-10 w-[176px] lg:w-[293px] 3xl:right-[-55px]" />
           </div>
           <div class="flex flex-col w-[343px] lg:w-[572px] 4xl:w-[670px]">
-            <h4 class="font-montserrat text-[#A2FF48] text-2xl font-semibold leading-[36px] text-left mb-10">
+            <h4 class="font-montserrat text-[#A2FF48] text-2xl font-semibold leading-[36px] text-left lg:mb-10 mb-5">
               The problem we're addressing isn't new.
             </h4>
             <p class="text-[#ffffff] font-hind text-base font-light leading-[32px] text-left">
@@ -29,21 +29,21 @@
 
     </div>
 
-    <div class="flex flex-row justify-center py-4 3xl:py-0 3xl:w-2/3 ">
+    <div class="flex flex-row justify-center lg:py-4 py-2 3xl:py-0 3xl:w-2/3 ">
       <img src="/Frame 206.png" class="w-[100px] h-1/2 lg:h-full lg:w-[200px] -mr-16 lg:-mr-20  3xl:mr-[-100px] relative z-10 lg:-top-1" />
       <h3
         class="hidden lg:flex text-center text-[#ffffff] font-semibold font-montserrat text-[20px] lg:text-[32px] leading-[40px] mt-10 lg:mt-20 relative z-20 lg:-ml-5 lg:-mr-5 3xl:mr-0 3xl:ml-0">
         We aim to change that by offering <br>deeper, more meaningful insights.
       </h3>
       <h3
-        class="lg:hidden text-center text-[#ffffff] font-semibold font-montserrat text-[20px] lg:text-[32px] leading-[40px] mt-12 lg:mt-20 relative z-20 lg:-ml-5 lg:-mr-5 3xl:mr-0 3xl:ml-0">
+        class="lg:hidden text-center text-[#ffffff] font-semibold font-montserrat text-[20px] lg:text-[32px] max-w-5/6  lg:leading-[40px] mt-10 lg:mt-20 relative z-20 lg:-ml-5 lg:-mr-5 3xl:mr-0 3xl:ml-0">
         We aim to change that by offering deeper, more meaningful insights.
       </h3>
-      <img src="/Frame 205.png" class="w-[100px] h-full lg:h-full lg:w-[200px] -ml-16 lg:-ml-20 3xl:ml-[-100px] relative z-10 top-24 lg:top-5" />
+      <img src="/Frame 205.png" class="w-[100px] h-full lg:h-full lg:w-[200px] -ml-16 lg:-ml-20 3xl:ml-[-100px] relative z-10 top-[50px] lg:top-5" />
 
     </div>
 
-    <div class=" items-center 3xl:w-2/3 4xl:w-3/5">
+    <div class=" items-center 3xl:w-2/3 4xl:w-3/5 mt-10">
       <div class="flex flex-col lg:flex-row items-center justify-center lg:pl-20 3xl:pl-0  gap-8">
         <div class="flex ">
           <div class="">
@@ -52,13 +52,13 @@
         </div>
         <div
           class="flex flex-col lg:pr-10  lg:mr-20 3xl:mr-0 w-[343px] lg:w-[700px] 3xl:w-[620px] 4xl:w-[800px] 4xl:pr-0 4xl:mr-0 3xl:pr-16">
-          <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left mb-10">
+          <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left lg:mb-10 mb-5">
             With Exhaustive Contextual Data
           </h4>
           <p class="text-[#ffffff] font-montserrat text-[20px] font-medium leading-[32px] text-left">Most platforms rely
             solely on surface-level information like official program descriptions — but we see that as just the
             starting point.</p>
-          <img src="/Separator.png" class="lg:w-[550px] my-5 " />
+          <img src="/Separator.png" class="lg:w-[550px] lg:my-5 my-6 " />
           <p
             class="text-[#ffffff] text-left font-hind text-[16px] font-bold leading-[24px] tracking-[0.0075em] space-y-5 mb-5">
             The real value comes from contextualizing this data:
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <div class=" items-center 3xl:w-2/3 4xl:w-3/5">
+    <div class=" items-center 3xl:w-2/3 4xl:w-3/5 mt-10">
       <div
         class="flex flex-col lg:flex-row-reverse items-center justify-center lg:px-20 3xl:pl-0 gap-4 3xl:gap-14 4xl:gap-8 3xl:pr-16 4xl:pr-0">
         <div class="flex ">
@@ -95,13 +95,13 @@
           </div>
         </div>
         <div class="flex flex-col lg:pr-5  3xl:pr-0 w-[343px] lg:w-[700px] 3xl:w-[646px] 4xl:w-[629px] ">
-          <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left mb-10">
+          <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left lg:mb-10 mb-5">
             Involving Human Expertise
           </h4>
           <p class="text-[#ffffff] font-montserrat text-[20px] font-medium leading-[32px] text-left">While AI is
             powerful and holds great promise, it's not a complete replacement for human insight.</p>
-          <img src="/Separator.png" class="lg:w-[550px] my-5 " />
-          <p class="text-[#ffffff] text-left font-hind text-[15px] font-normal leading-[24px] tracking-[0.0075em] mt-5">
+          <img src="/Separator.png" class="lg:w-[550px] lg:my-5 my-6 " />
+          <p class="text-[#ffffff] text-left font-hind text-[15px] font-normal leading-[24px] tracking-[0.0075em] lg:mt-5 mt-0">
             We leverage cutting-edge technology to provide highly personalized recommendations, but we understand that
             reliable high-quality decisions often require a human touch.
           </p>
@@ -126,7 +126,7 @@
         </div>
       </div>
     </div>
-    <div class=" items-center 3xl:w-2/3 pb-10 lg:pb-40 4xl:w-3/5">
+    <div class=" items-center 3xl:w-2/3 pb-10 lg:pb-40 4xl:w-3/5 mt-10">
       <div class="flex flex-col lg:flex-row items-center justify-center lg:pl-20 3xl:pl-0 gap-8">
         <div class="flex ">
           <div class="">
@@ -135,7 +135,7 @@
         </div>
         <div
           class="flex flex-col lg:pr-10 3xl:pr-16 lg:mr-20 3xl:mr-0 w-[343px] lg:w-[700px] 3xl:w-[646px] 4xl:w-[800px] 4xl:pr-0">
-          <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left mb-10">
+          <h4 class="font-montserrat text-[#A2FF48] text-[24px] font-semibold leading-[36px] text-left lg:mb-10 mb-5">
             Leveraging Machine Learning
           </h4>
           <p class="text-[#ffffff] font-montserrat text-[20px] font-medium leading-[32px] text-left">
@@ -143,7 +143,7 @@
             process and model vast amounts of unstructured data at scale.
           </p>
           <img src="/Separator.png" class="w-[550px] 3xl:w-[580px] my-5 " />
-          <p class="text-[#ffffff] text-left font-hind text-[15px] font-normal leading-[24px] tracking-[0.0075em] mt-5">
+          <p class="text-[#ffffff] text-left font-hind text-[15px] font-normal leading-[24px] tracking-[0.0075em] lg:mt-5 mt-0">
             This enables us to semantically understand and assess learning opportunities in ways that were previously
             unimaginable.
           </p>

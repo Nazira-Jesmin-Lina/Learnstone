@@ -1,8 +1,8 @@
 <template>
 <div class="px-4 lg:px-0 items-center justify-center w-full">
-          <div id="aboutus" class="bg-[#21463C] pb-20 4xl:pb-16 items-center justify-center flex flex-col w-full">
+          <div id="aboutus" class="bg-[#21463C] lg:pb-20 pb-0 4xl:pb-16 items-center justify-center flex flex-col w-full">
             <div class=" text-black lg:px-[8.5rem] 3xl:px-[23.5rem] 4xl:px-[27rem] justify-center items-center w-full ">
-              <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start mt-[5.5rem] pb-2">About Us</h6>
+              <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start lg:mt-[5.5rem] mt-10 pb-2">About Us</h6>
               <h3 class="text-[40px] font-montserrat mb-10 leading-[48px] text-[#ffffff] text-start">Understanding the Team</h3>
               <div class="flex flex-row gap-12 justify-between w-full">
                 <div class="flex flex-col-reverse lg:flex-row w-full text-center items-center justify-center gap-8  mt-[1.25rem]">

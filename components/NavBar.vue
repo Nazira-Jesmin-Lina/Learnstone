@@ -30,21 +30,21 @@
 
   <!-- Mobile Navbar -->
   <nav
-    class="lg:hidden bg-[#F4EED3] text-[#00140F] fixed top-0 left-0 z-[99999] rounded-b-3xl  border-b-[#DBCCB1] border-b-[1px] w-full">
-    <div class="flex justify-between p-4">
+    class="lg:hidden bg-[#F4EED3] text-[#00140F] fixed top-0 left-0 z-[99999] rounded-b-xl border-b-[#DBCCB1] border-b-[1px] w-full ">
+    <div class="flex justify-between  p-4">
       <!-- Logo -->
-      <img src="/logo.svg" class="my-auto" alt="logo" />
+      <img src="/logo.svg" class="my-auto h-[20px]" alt="logo" />
 
       <!-- Toggle between Burger and Vector (Stroke) icons based on isOpen state -->
       <img :src="isOpen ? '/Vector (Stroke).svg' : '/burger.svg'" @click="isOpen = !isOpen"
-        class="my-auto cursor-pointer" alt="menu" />
+        class="my-auto cursor-pointer size-5" alt="menu" />
     </div>
 
     <!-- Transition for Mobile Menu -->
     <transition name="fade-slide">
-      <div v-if="isOpen" class=" bg-[#F4EED3] w-full">
+      <div v-if="isOpen" class=" bg-[#F4EED3] w-full h-full rounded-lg flex flex-col justify-between">
         <ul
-          class="text-[#00140F] font-montserrat text-[20px] font-[500px] leading-[32px] divide-y-2 divide-beige-2 px-5 text-center text-xl">
+          class="text-[#00140F] flex-none rounded-lg font-montserrat text-[20px] font-[500px] leading-[32px]  px-5 text-center text-xl">
 
           <!-- Our Work Link -->
           <li class="py-4 cursor-pointer" @click="isOpen = false">
@@ -71,17 +71,23 @@
               @click.native="activeLink = 'aboutus'">
               About Us
             </NuxtLink>
-          </li>
-
-          <!-- Contact Us Button -->
-          <li class="py-4 cursor-pointer" @click="isOpen = false">
-            <NuxtLink to="#contactus"
-              :class="activeLink === 'contactus' ? 'underline font-bold text-[#00140F]' : 'text-[#00140F]'"
-              @click.native="activeLink = 'contactus'">
-              Contact Us
-            </NuxtLink>
-          </li>
+          </li>          
         </ul>
+        <!-- Contact Us Button -->
+          <div class="p-4 cursor-pointer flex-grow bottom-0 justify-end" @click="isOpen = false">
+            <NuxtLink 
+              to="#contactus" 
+              :class="activeLink === 'contactus' ? 'active-link' : ''"
+              @click.native="activeLink = 'contactus'"
+            >
+              <button
+                :class=" activeLink === 'contactus' ? 'bg-[#FF9D8D]' : 'bg-[#FF5F45] hover:bg-[#E0462D]'"
+                class="w-full font-hind rounded-lg px-4 py-2 text-[#ffffff] font-regular text-[16px] my-auto"
+              >
+                Contact Us >
+              </button>
+            </NuxtLink>
+          </div>
       </div>
     </transition>
   </nav>

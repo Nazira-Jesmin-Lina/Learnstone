@@ -14,10 +14,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif'],
+        montserrat: ['Inter', 'sans-serif'],
       },
       fontFamily: {
-        hind: ['hind', 'sans-serif'],
+        hind: ['Inter', 'sans-serif'],
       },
       screens: {
         '3xl': '1920px',  // Adjust the pixel value as needed
