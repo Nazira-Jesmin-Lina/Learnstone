@@ -69,13 +69,13 @@ html {
   
 
  .btn-primary {
-    @apply bg-[#FF5F45] rounded-lg px-3 py-1.5 text-[#FFFFFF] font-normal text-[1rem] my-auto ;
+    @apply bg-[#FF5F45] border border-[#FF5F45] rounded-lg px-3 py-1.5 text-[#FFFFFF] font-normal text-[1rem] my-auto ;
  }
  .btn-primary:hover {
-     @apply bg-[#E0462D] ;
+     @apply bg-[#E0462D] border border-[#E0462D] ;
   }
  .btn-secondary {
-     @apply bg-transparent rounded-lg pl-1 pr-1 py-1 text-[#21463C] border border-[#21463C] text-[1rem] my-auto;
+     @apply bg-transparent rounded-lg px-3 py-1.5 text-[#21463C] border border-[#21463C] text-[1rem] my-auto;
  }
  .btn-secondary:hover {
      @apply text-[#303830] border border-[#303830];
@@ -102,6 +102,13 @@ body{
     overflow-x: hidden;
 }
   
+/* Add your transition styles */
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 1s ease-in-out;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
   
  
 

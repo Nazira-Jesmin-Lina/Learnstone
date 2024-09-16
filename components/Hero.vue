@@ -1,6 +1,6 @@
 <template>
     <div
-        class="noise-bg rounded-b-[2rem] p-4 lg:p-0 pt-20 pb-10 lg:py-[6.5rem] 4xl:pb-10 justify-center items-center relative w-full lg:w-full lg:pl-[3.5rem] 3xl:pl-[11rem] 4xl:pl-[14rem]">
+        class="noise-bg rounded-b-[2rem] p-4 lg:p-0 pt-20 pb-10 lg:pb-20 lg:pt-[6.5rem] 4xl:pb-10 justify-center items-center relative w-full lg:w-full lg:pl-[3.5rem] 3xl:pl-[11rem] 4xl:pl-[14rem]">
         <img src="/Decorative Dots.png" class="hidden lg:flex absolute bottom-2  w-full lg:w-[1000px] z-0 right-0 " />
         <div class="flex flex-col-reverse gap-4 lg:gap-0 lg:flex-row justify-center items-center w-full relative z-20">
             <div class="w-full [text-#00140F] lg:ml-20 3xl:ml-[200px] lg:py-20 justify-center items-center">
@@ -16,14 +16,14 @@
                 <div class="flex flex-col-reverse w-full lg:flex-row gap-3 ">
                     <NuxtLink to="#platform" class="w-full lg:w-fit">
                         <button class="w-full btn-secondary flex items-center justify-center gap-1 lg:pl-2">
-                            Visit Platform
-                            <img class="pt-1.5" src="/angle_right_2.svg" />
+                            <span>Visit Platform</span>
+                            <i class="fas fa-chevron-right px-1"></i>
                         </button>
                     </NuxtLink>
                     <NuxtLink to="#contactus"class="w-full lg:w-fit">
-                        <button class="btn-primary flex items-center justify-center gap-1 w-full">
-                            Contact Us
-                            <img class="pt-1" src="/angle_right.svg" />
+                        <button class="btn-primary flex items-center justify-center gap-1 w-full ">
+                            <span>Contact Us</span>
+                            <i class="fas fa-chevron-right px-1"></i>
                         </button>
                     </NuxtLink>
                 </div>

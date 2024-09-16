@@ -1,15 +1,15 @@
 <template>
   <div id="platform"
-    class="bg-[#F4EED3] px-4 lg:px-0 lg:pt-16 pt-8 rounded-2xl lg:rounded-[2rem] pb-4 3xl:pb-16 4xl:pb-8 z-10 relative lg:pl-[8.5rem] 3xl:px-[23.5rem] 4xl:px-[27rem]">
-    <img src='/Mask group.svg' class="absolute 4xl:w-3/5  z-0 top-0 right-0" />
+    class="bg-[#F4EED3] pt-8 lg:pt-20 3xl:pt-20 4xl:pt-20 lg:pb-16 rounded-2xl lg:rounded-[2rem] pb-4 3xl:pb-0 4xl:pb-12 z-10 relative lg:pl-[8.5rem] px-4 lg:px-0  3xl:px-[23.5rem] 4xl:px-[27rem]">
+    <img src='/Mask group.svg' class="absolute 4xl:w-3/5  z-0 top-4 right-0" />
     <div class="text-black relative z-20 flex flex-col items-start justify-center">
       <p class="text-[20px] text-[#FF5F45] font-montserrat font-semibold">Platform</p>
       <h2 class="font-montserrat lg:text-[40px] text-[32px] font-semibold leading-[48px]">Core Features</h2>
-      <div class="flex w-full justify-center items-center py-14 3xl:py-14 4xl:py-0 ">
+      <div class="flex w-full justify-center items-center py-14 3xl:py-8 4xl:py-0 ">
         <!-- Button Section -->
         <div class="w-full flex flex-col items-center lg:pr-40 ">
           <!-- Accordion 1 -->
-          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
+          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
             <div class="flex justify-between ">
               <h3 class="font-semibold font-montserrat text-[20px] text-[#00140F]">Semantic Search</h3>
               <Button @click="toggleAccordion(1)"
@@ -31,7 +31,7 @@
           </div>
 
           <!-- Accordion 2 -->
-          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
+          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
             <div class="flex justify-between">
               <h3 class="font-semibold font-montserrat text-[20px] text-[#00140F]">Derivative Insights</h3>
               <Button @click="toggleAccordion(2)"
@@ -57,7 +57,7 @@
           </div>
 
           <!-- Accordion 3 -->
-          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
+          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
             <div class="flex justify-between">
               <h3 class="font-semibold font-montserrat text-[20px] text-[#00140F]">Deep Profile</h3>
               <Button @click="toggleAccordion(3)"
@@ -80,7 +80,7 @@
           </div>
 
           <!-- Accordion 4 -->
-          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
+          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
             <div class="flex justify-between">
               <h3 class="font-semibold font-montserrat text-[20px] text-[#00140F]">User Centered</h3>
               <Button @click="toggleAccordion(4)"
@@ -106,7 +106,7 @@
           </div>
 
           <!-- Accordion 5 -->
-          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 items-center justify-center">
+          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
             <div class="flex justify-between">
               <h3 class="font-semibold font-montserrat text-[20px] text-[#00140F]">High-Resolution Guidance</h3>
               <Button @click="toggleAccordion(5)"
@@ -138,8 +138,10 @@
 
         <!-- Image Section -->
         <div class="hidden lg:pr-40 3xl:pr-0 w-full h-[70vh] 4xl:h-[45vh] lg:flex justify-center items-center transition delay-300">
-          <img :src="currentImage" alt="business"
-            class="h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-105" />
+          <transition name="fade" mode="out-in">
+            <img :src="currentImage" alt="business"
+              class="h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-105" />
+          </transition>
         </div>
       </div>
     </div>

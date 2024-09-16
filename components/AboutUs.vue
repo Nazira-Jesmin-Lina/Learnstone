@@ -9,13 +9,13 @@
                   <div class="text-[#ffffff] text-left font-hind text-lg w-full 4xl:w-11/12 tracking-wide space-y-8 ">
                     <h5 class="text-[#A2FF48] font-montserrat text-[20px] font-medium leading-[24px] text-left">Why Now?</h5>
                     <div class="space-y-4">
-                      <p class="font-thin text-base tracking-wide font-hind">Recent breakthroughs in Natural Language Processing, Machine Learning, and Large Language Models have made it possible to process vast amounts of unstructured data at scale—something that was previously accessible to only a few.</p>
-                      <p class="font-thin text-base tracking-wide font-hind">Now, this technology is commercially viable, just as the demand for personalized education and career guidance is rising.</p>
-                      <p class="font-thin text-base tracking-wide font-hind">This convergence makes it the perfect time for a platform that delivers smarter, more contextual recommendations, moving beyond traditional search methods.</p>
+                      <p class="font-extralight text-base font-hind">Recent breakthroughs in Natural Language Processing, Machine Learning, and Large Language Models have made it possible to process vast amounts of unstructured data at scale—something that was previously accessible to only a few.</p>
+                      <p class="font-extralight text-base font-hind">Now, this technology is commercially viable, just as the demand for personalized education and career guidance is rising.</p>
+                      <p class="font-extralight text-base font-hind">This convergence makes it the perfect time for a platform that delivers smarter, more contextual recommendations, moving beyond traditional search methods.</p>
                     </div>
                   </div>
                   <div class="relative w-full 3xl:w-5/6 4xl:pl-6  items-center justify-center">
-                    <img src="/Image (5).png" class="relative w-[343px] lg:w-[600px] object-contain z-10" />
+                    <img src="/Image (5).png" class="relative w-full lg:w-[600px] object-contain z-10" />
                     <img src="/Frame 204.png" class="absolute -top-[50px] lg:-top-24 -right-[0.5rem] lg:-right-[6rem] z-0 w-[176px] lg:w-[270px] " />
                   </div>
                 </div>
@@ -26,13 +26,13 @@
                   <div class="text-[#ffffff] text-left font-hind text-lg w-full 4xl:w-5/6 4xl:pl-8 tracking-wide space-y-8 z-10 relative">
                     <h5 class="text-[#A2FF48] font-montserrat text-[20px] font-medium leading-[24px] text-left">Why Us?</h5>
                     <div class="space-y-4">
-                      <p class="font-thin text-base tracking-wide font-hind">Our team is composed of researchers and engineers with exceptional academic and professional track records.</p>
-                      <p class="font-thin text-base tracking-wide font-hind">Many of us hold top-tier credentials in Natural Language Processing and related fields. We also bring expertise in data collection, processing, and warehousing.</p>
-                      <p class="font-thin text-base tracking-wide font-hind">This unique combination of skills positions us strongly to deliver on the challenge.</p>
+                      <p class="font-extralight text-base font-hind">Our team is composed of researchers and engineers with exceptional academic and professional track records.</p>
+                      <p class="font-extralight text-base font-hind">Many of us hold top-tier credentials in Natural Language Processing and related fields. We also bring expertise in data collection, processing, and warehousing.</p>
+                      <p class="font-extralight text-base font-hind">This unique combination of skills positions us strongly to deliver on the challenge.</p>
                     </div>
                   </div>
                   <div class="w-full 3xl:w-5/6 3xl:pl-6 4xl:pl-4  relative">
-                    <img src="/Image (6).png" class="w-[343px] lg:w-[650px] 4xl:w-[572px] object-contain z-10 relative" />
+                    <img src="/Image (6).png" class="w-full lg:w-[650px] 4xl:w-[572px] object-contain z-10 relative" />
                     <img src="/Frame 205_2.png" class="absolute -bottom-8 -left-3 lg:-bottom-[3.5rem] lg:-left-[4.5rem] lg:transform lg:translate-x-4 z-0 w-[176px] lg:w-[200px]" />
                   </div>
                 </div>

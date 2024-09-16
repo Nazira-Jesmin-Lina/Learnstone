@@ -4,7 +4,7 @@
       <nav-bar />
       <Hero />
       <OurWork />
-      <div class="lg:-mt-20">
+      <div class="lg:-mt-20 3xl:mt-0">
         <Features />
         <AboutUs />
         <ContactUs />

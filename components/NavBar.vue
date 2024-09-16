@@ -3,7 +3,7 @@
     class="hidden fixed top-0 left-0 w-full  bg-[#F4EED3] lg:flex justify-between w-3/2 px-20 pt-4 pb-2 z-[99999] rounded-b-3xl border-b-[#DBCCB1] border-b-[1px]">
     <img src="/logo.svg" class="my-auto" alt="logo" />
 
-    <div class="flex gap-2">
+    <div class="flex gap-1">
       <div class="flex text-[#00140F] text-[16px] text-lg font-medium px-8 py-1">
         <NuxtLink to="#ourwork"
           :class="activeLink === 'ourwork' ? 'underline my-auto px-2 hover:text-[#555C5A]' : 'my-auto px-2 hover:text-[#555C5A] hover:underline'">
@@ -20,8 +20,8 @@
       </div>
       <NuxtLink to="#contactus" :class="activeLink === 'contactus' ? 'active-link' : ''">
         <button :class="activeLink === 'contactus' ? 'bg-[#FF9D8D]' : 'bg-[#FF5F45] hover:bg-[#E0462D]'"
-          class="font-hind rounded-lg px-4 py-2 text-[#ffffff] font-regular text-[16px] my-auto">
-          Contact Us >
+          class="font-hind rounded-lg px-4 py-2 text-[#ffffff] font-light text-base my-auto">
+          Contact Us <i class="fas fa-chevron-right px-1"></i>
         </button>
       </NuxtLink>
 
@@ -84,7 +84,8 @@
                 :class=" activeLink === 'contactus' ? 'bg-[#FF9D8D]' : 'bg-[#FF5F45] hover:bg-[#E0462D]'"
                 class="w-full font-hind rounded-lg px-4 py-2 text-[#ffffff] font-regular text-[16px] my-auto"
               >
-                Contact Us >
+                Contact Us 
+                            <i class="fas fa-chevron-right px-1"></i>
               </button>
             </NuxtLink>
           </div>
