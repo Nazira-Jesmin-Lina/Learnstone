@@ -74,7 +74,7 @@
           </li>          
         </ul>
         <!-- Contact Us Button -->
-          <div class="p-4 cursor-pointer " @click="isOpen = false">
+          <div class="p-4 cursor-pointer pb-20" @click="isOpen = false">
             <NuxtLink 
               to="#contactus" 
               :class="activeLink === 'contactus' ? 'active-link' : ''"
