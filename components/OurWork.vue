@@ -129,7 +129,7 @@
         </div>
       </div>
     </div>
-    <div class=" items-center 3xl:w-2/3 pb-10 lg:pb-40 3xl:pb-20 4xl:w-3/5 mt-10 lg:mt-10">
+    <div class=" items-center 3xl:w-2/3 pb-10 lg:pb-48 3xl:pb-20 4xl:w-3/5 mt-10 lg:mt-12">
       <div class="flex flex-col lg:flex-row items-center justify-center lg:pl-20 3xl:pl-0 gap-8">
         <div class="flex ">
           <div class="">

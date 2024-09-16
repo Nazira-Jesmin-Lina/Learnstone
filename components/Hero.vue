@@ -5,11 +5,11 @@
         <div class="flex flex-col-reverse gap-4 lg:gap-0 lg:flex-row justify-center items-center w-full relative z-20">
             <div class="w-full [text-#00140F] lg:ml-20 3xl:ml-[200px] lg:py-20 justify-center items-center">
                 <h1
-                    class="text-[32px] tracking-wider lg:tracking-normal lg:text-5xl max-w-full lg:max-w-[671px] font-montserrat font-semibold leading-10 lg:leading-[56px] lg:pr-16">
+                    class="text-[32px] tracking-wider lg:tracking-normal lg:text-5xl max-w-full lg:max-w-[650px] font-montserrat font-semibold leading-10 lg:leading-[56px] lg:pr-16">
                     Empowering Students and Young Professionals to Find the Right Stepping Stone
                 </h1>
                 <h5
-                    class="text-beige font-montserrat text-xl font-normal tracking-wide lg:font-medium leading-[32px] lg:leading-[24px] lg:pr-16 text-left max-w-[671px] 3xl:max-w-[720px] mb-[34px] mt-[37px]">
+                    class="text-beige font-montserrat text-xl font-normal tracking-wide lg:font-medium leading-[32px] lg:leading-[24px] lg:pr-16 text-left max-w-[651px]  3xl:max-w-[720px] mb-[34px] mt-[37px]">
                     By combining vast data with recent advancements in Natural Language Processing, Learnstone matches
                     your goals with the best opportunities.
                 </h5>
@@ -28,9 +28,9 @@
                     </NuxtLink>
                 </div>
             </div>
-            <div class="w-full 3xl:w-2/3 4xl:w-1/2 flex items-center justify-center ">
+            <div class="w-full lg:w-5/6 3xl:w-2/3 4xl:w-1/2 flex items-center justify-center ">
                 <img src="/Visual copy.svg"
-                    class="hidden lg:flex 3xl:ml-[-450px] 3xl:py-2  4xl:py-16 4xl:ml-[-595px] lg:pr-32 lg:py-6 w-full h-full lg:object-contain" />
+                    class="hidden lg:flex 3xl:ml-[-450px] 3xl:py-2  4xl:py-16 4xl:ml-[-595px] lg:pr-32 lg:py-0 w-full h-full lg:object-contain" />
                 <img src="/Visual.svg"
                     class="flex lg:hidden w-full h-full object-contain" />
             </div>
