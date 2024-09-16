@@ -104,7 +104,7 @@
             </div>
           </div>
           <!-- Submit Button -->
-          <div class="text-right justify-center my-auto items-center w-full lg:w-fit">
+          <div class="text-right my-auto items-end w-full">
             <button type="submit"
               class="bg-[#FF5F45] w-full lg:w-fit text-white lg:px-6 py-3 rounded-lg text-xl font-semibold btn-primary">Send Message
               <span class="items-center justify-center text-xl">></span> </button>

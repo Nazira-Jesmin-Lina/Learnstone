@@ -5,7 +5,7 @@
         <div class="flex flex-col-reverse gap-4 lg:gap-0 lg:flex-row justify-center items-center w-full relative z-20">
             <div class="w-full [text-#00140F] lg:ml-20 3xl:ml-[200px] lg:py-20 justify-center items-center">
                 <h1
-                    class="text-[32px] tracking-wider lg:text-5xl max-w-full lg:max-w-[671px] font-montserrat font-semibold leading-10 lg:leading-[56px] lg:pr-16">
+                    class="text-[32px] tracking-wider lg:tracking-normal lg:text-5xl max-w-full lg:max-w-[671px] font-montserrat font-semibold leading-10 lg:leading-[56px] lg:pr-16">
                     Empowering Students and Young Professionals to Find the Right Stepping Stone
                 </h1>
                 <h5

@@ -30,7 +30,7 @@
 
   <!-- Mobile Navbar -->
   <nav
-    class="lg:hidden bg-[#F4EED3] text-[#00140F] fixed top-0 left-0 z-[99999] rounded-b-xl border-b-[#DBCCB1] border-b-[1px] w-full ">
+    :class="['lg:hidden bg-[#F4EED3] text-[#00140F] fixed top-0 left-0 z-[99999] border-b-[#DBCCB1] border-b-[1px] w-full', isOpen ? 'h-full overflow-y-hidden' : 'h-auto rounded-b-3xl']">
     <div class="flex justify-between  p-4">
       <!-- Logo -->
       <img src="/logo.svg" class="my-auto h-[20px]" alt="logo" />
@@ -74,7 +74,7 @@
           </li>          
         </ul>
         <!-- Contact Us Button -->
-          <div class="p-4 cursor-pointer flex-grow bottom-0 justify-end" @click="isOpen = false">
+          <div class="p-4 cursor-pointer " @click="isOpen = false">
             <NuxtLink 
               to="#contactus" 
               :class="activeLink === 'contactus' ? 'active-link' : ''"
@@ -99,6 +99,15 @@ import { ref, onMounted, onUnmounted } from 'vue';
 
 // State for the mobile menu toggle
 const isOpen = ref(false);
+
+// Watch for changes to isOpen and add/remove 'overflow-hidden' class from body
+watch(isOpen, (newVal) => {
+  if (newVal) {
+    document.body.classList.add('overflow-hidden');
+  } else {
+    document.body.classList.remove('overflow-hidden');
+  }
+});
 
 // State for the active link underline
 const activeLink = ref('');
