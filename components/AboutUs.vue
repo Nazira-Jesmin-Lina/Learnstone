@@ -15,8 +15,8 @@
                     </div>
                   </div>
                   <div class="relative w-full 3xl:w-5/6 4xl:pl-6  items-center justify-center">
-                    <img src="/Image (5).png" class="relative w-full lg:w-[600px] object-contain z-10" />
-                    <img src="/Frame 204.png" class="absolute -top-[50px] lg:-top-24 -right-[0.5rem] lg:-right-[6rem] z-0 w-[176px] lg:w-[270px] " />
+                    <img src="/Image (6).svg" class="relative w-full lg:w-[600px] object-contain z-10" />
+                    <img src="/Big Pattern (1).svg" class="absolute -top-[50px] lg:-top-24 -right-[0.5rem] lg:-right-[6rem] z-0 w-[176px] lg:w-[270px] " />
                   </div>
                 </div>
               </div>
@@ -32,8 +32,8 @@
                     </div>
                   </div>
                   <div class="w-full 3xl:w-5/6 3xl:pl-6 4xl:pl-4  relative">
-                    <img src="/Image (6).png" class="w-full lg:w-[650px] 4xl:w-[572px] object-contain z-10 relative" />
-                    <img src="/Frame 205_2.png" class="absolute -bottom-8 -left-3 lg:-bottom-[3.5rem] lg:-left-[4.5rem] lg:transform lg:translate-x-4 z-0 w-[176px] lg:w-[200px]" />
+                    <img src="/Image (3).svg" class="w-full lg:w-[650px] 4xl:w-[572px] object-contain z-10 relative" />
+                    <img src="/Frame 205 (1).svg" class="absolute -bottom-8 -left-3 lg:-bottom-[3.5rem] lg:-left-[4.5rem] lg:transform lg:translate-x-4 z-0 w-[176px] lg:w-[200px]" />
                   </div>
                 </div>
               </div>

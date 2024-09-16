@@ -27,15 +27,15 @@
           <h5 class="font-montserrat font-semibold text-[20px]">Our Social Media Links</h5>
           <div class="flex flex-col mt-4 space-y-4">
             <a href="#" class="flex items-center space-x-2">
-              <img src="/Youtube.png" alt="YouTube" class="h-6 w-6">
+              <img src="/youtube.svg" alt="YouTube" class="h-6 w-6">
               <span class="text-[16px] underline hover:text-[#555C5A]">YouTube</span>
             </a>
             <a href="#" class="flex items-center space-x-2">
-              <img src="/Instagram.png" alt="Instagram" class="h-6 w-6">
+              <img src="/instagram.svg" alt="Instagram" class="h-6 w-6">
               <span class="text-[16px] underline hover:text-[#555C5A]">Instagram</span>
             </a>
             <a href="#" class="flex items-center space-x-2">
-              <img src="/Icon.png" alt="LinkedIn" class="h-6 w-6">
+              <img src="/linkedin.svg" alt="LinkedIn" class="h-6 w-6">
               <span class="text-[16px] underline hover:text-[#555C5A]">LinkedIn</span>
             </a>
           </div>

@@ -8,8 +8,8 @@
           Disrupting Current Solutions</h3>
         <div class="flex flex-col lg:flex-row-reverse items-center justify-center 3xl:pl-0 gap-4 3xl:gap-8 ">
           <div class="lg:pr-12 4xl:pr-0 mt-10 relative ">
-            <img src="/our_work_1.png" class="w-full lg:w-[572px] object-contain relative z-20" />
-            <img src="/Frame 204.png"
+            <img src="/image (4).svg" class="w-full lg:w-[572px] object-contain relative z-20" />
+            <img src="/Big Pattern (1).svg"
               class="absolute -top-12 lg:-top-6 -right-[10px] lg:right-[-4rem] 4xl:right-[-7rem] overflow-hidden lg:transform lg:-translate-y-1/3 z-10 w-[176px] lg:w-[293px] 3xl:right-[-55px]" />
           </div>
           <div class="flex flex-col w-full lg:w-[572px] 4xl:w-[670px]">
@@ -32,7 +32,7 @@
     </div>
 
     <div class="flex flex-row justify-center lg:py-4 py-2 3xl:py-0 3xl:w-2/3 ">
-      <img src="/Frame 206.png" class="w-[100px] h-1/2 lg:h-full lg:w-[200px] -mr-16 lg:-mr-20  3xl:mr-[-100px] relative z-10 lg:-top-1" />
+      <img src="/Frame 206.svg" class="w-[100px] h-1/2 lg:h-full lg:w-[200px] -mr-16 lg:-mr-20  3xl:mr-[-100px] relative z-10 lg:-top-1" />
       <h3
         class="hidden lg:flex text-center text-[#ffffff] font-semibold font-montserrat text-xl lg:text-[32px] leading-[40px] mt-10 lg:mt-20 relative z-20 lg:-ml-5 lg:-mr-5 3xl:mr-0 3xl:ml-0">
         We aim to change that by offering <br>deeper, more meaningful insights.
@@ -41,15 +41,13 @@
         class="lg:hidden text-center text-[#ffffff] font-semibold font-montserrat text-xl lg:text-[32px] max-w-5/6  lg:leading-[40px] mt-10 lg:mt-20 relative z-20 lg:-ml-5 lg:-mr-5 3xl:mr-0 3xl:ml-0">
         We aim to change that by offering deeper, more meaningful insights.
       </h3>
-      <img src="/Frame 205.png" class="w-[100px] h-full lg:h-full lg:w-[200px] -ml-16 lg:-ml-20 3xl:ml-[-100px] relative z-10 top-[50px] lg:top-5" />
-
+      <img src="/Frame 205.svg" class="w-[100px] h-full lg:h-full lg:w-[200px] -ml-16 lg:-ml-20 3xl:ml-[-100px] relative z-10 top-[50px] lg:top-5" />
     </div>
-
     <div class=" items-center 3xl:w-2/3 4xl:w-3/5 lg:mt-0 mt-10">
       <div class="flex flex-col lg:flex-row items-center justify-center lg:pl-20 3xl:pl-0  gap-8">
         <div class="flex ">
           <div class="">
-            <img src="/ourwork_1.png" class="w-full lg:w-[700px] 3xl:w-[572px] 4xl:w-[650px] object-contain" />
+            <img src="/Image.svg" class="w-full lg:w-[700px] 3xl:w-[572px] 4xl:w-[650px] object-contain" />
           </div>
         </div>
         <div
@@ -60,7 +58,7 @@
           <p class="text-[#ffffff] font-montserrat text-xl font-normal tracking-wide text-left">Most platforms rely
             solely on surface-level information like official program descriptions — but we see that as just the
             starting point.</p>
-          <img src="/Separator.png" class="lg:w-[550px] lg:my-5 my-6 " />
+          <img src="/Separator.svg" class="lg:w-[550px] lg:my-5 my-6 " />
           <p
             class="text-[#ffffff] text-left font-hind text-base font-bold  space-y-5 mb-5">
             The real value comes from contextualizing this data:
@@ -89,13 +87,12 @@
         </div>
       </div>
     </div>
-
     <div class=" items-center 3xl:w-2/3 4xl:w-3/5 mt-10">
       <div
         class="flex flex-col lg:flex-row-reverse items-center justify-center lg:px-20 3xl:pl-0 gap-4 3xl:gap-14 4xl:gap-8 3xl:pr-16 4xl:pr-0">
         <div class="flex ">
           <div class="lg:pr-14 3xl:pr-0 ">
-            <img src="/ourwork_2.png" class="w-full lg:w-[609px] 3xl:w-[750px] 4xl:w-[609px] object-contain" />
+            <img src="/Image (1).svg" class="w-full lg:w-[609px] 3xl:w-[750px] 4xl:w-[609px] object-contain" />
           </div>
         </div>
         <div class="flex flex-col lg:pr-5  3xl:pr-0 w-full lg:w-[700px] 3xl:w-[646px] 4xl:w-[629px] ">
@@ -104,7 +101,7 @@
           </h4>
           <p class="text-[#ffffff] font-montserrat text-xl font-normal tracking-wide">While AI is
             powerful and holds great promise, it's not a complete replacement for human insight.</p>
-          <img src="/Separator.png" class="lg:w-[550px] lg:my-5 my-6 " />
+          <img src="/Separator.svg" class="lg:w-[550px] lg:my-5 my-6 " />
           <p class="font-hind text-base font-extralight leading-5 lg:leading-6
             text-left text-white  lg:mt-5 mt-0">
             We leverage cutting-edge technology to provide highly personalized recommendations, but we understand that
@@ -136,7 +133,7 @@
       <div class="flex flex-col lg:flex-row items-center justify-center lg:pl-20 3xl:pl-0 gap-8">
         <div class="flex ">
           <div class="">
-            <img src="/ourwork_3.png" class="w-full lg:w-[700px] 3xl:w-[572px] 4xl:w-[650px] object-contain" />
+            <img src="/Image (2).svg" class="w-full lg:w-[700px] 3xl:w-[572px] 4xl:w-[650px] object-contain" />
           </div>
         </div>
         <div
@@ -148,7 +145,7 @@
             Thanks to recent advances in Natural Language Processing (NLP) and Large Language Models (LLMs), we can now
             process and model vast amounts of unstructured data at scale.
           </p>
-          <img src="/Separator.png" class="w-[550px] 3xl:w-[580px] my-5 " />
+          <img src="/Separator.svg" class="w-[550px] 3xl:w-[580px] my-5 " />
           <p class="font-hind text-base font-extralight leading-5 lg:leading-6  text-left text-white  lg:mt-5 mt-0">
             This enables us to semantically understand and assess learning opportunities in ways that were previously
             unimaginable.
@@ -165,14 +162,10 @@
                 <i class="fas fa-chevron-right px-1"></i>
               </button>
             </NuxtLink>
-
           </div>
         </div>
       </div>
-
     </div>
-
-
   </div>
 
 </template>
