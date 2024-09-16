@@ -8,7 +8,7 @@
           Disrupting Current Solutions</h3>
         <div class="flex flex-col lg:flex-row-reverse items-center justify-center 3xl:pl-0 gap-4 3xl:gap-8 ">
           <div class="lg:pr-12 4xl:pr-0 mt-10 relative ">
-            <img src="/image (4).svg" class="w-full lg:w-[572px] object-contain relative z-20" />
+            <img src="/Image (4).svg" class="w-full lg:w-[572px] object-contain relative z-20" />
             <img src="/Big Pattern (1).svg"
               class="absolute -top-12 lg:-top-6 -right-[10px] lg:right-[-4rem] 4xl:right-[-7rem] overflow-hidden lg:transform lg:-translate-y-1/3 z-10 w-[176px] lg:w-[293px] 3xl:right-[-55px]" />
           </div>
