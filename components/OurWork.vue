@@ -1,16 +1,16 @@
 <template>
   <div id="ourwork"
-    class="px-4 lg:px-0 lg:pl-[3.5rem] 3xl:pl-[4rem] 4xl:pl-[0] bg-[#21463C] lg:flex lg:gap-8 3xl:gap-12  gap:14 relative justify-center items-center pb-0 z-0 flex flex-col 3xl:w-full">
+    class="px-4 lg:px-0 lg:pl-[3.5rem] 3xl:pl-[4rem] 4xl:pl-[0] bg-[#21463C] lg:flex lg:gap-8 3xl:gap-16  gap:14 relative justify-center items-center pb-0 z-0 flex flex-col 3xl:w-full">
     <div class=" items-center 3xl:w-2/3 4xl:w-3/5 lg:pt-24 pt-8">
       <div class="flex-col items-center ">
         <h6 class="text-lg font-semibold font-montserrat text-[#FF5F45] text-start w-full items-start">Our Work</h6>
         <h3 class="text-[40px] font-montserrat leading-[48px] mb-4 text-[#ffffff] text-start w-full items-start">
           Disrupting Current Solutions</h3>
-        <div class="flex flex-col lg:flex-row-reverse items-center justify-center 3xl:pl-0 gap-4 3xl:gap-8 ">
-          <div class="lg:pr-12 4xl:pr-0 mt-10 relative ">
-            <img src="/Image (4).svg" class="w-full lg:w-[572px] object-contain relative z-20" />
+        <div class="flex flex-col lg:flex-row-reverse items-center justify-center 3xl:pl-0 gap-4 3xl:gap-8 lg:mt-[-10] ">
+          <div class="lg:pr-12 4xl:pr-0 mt-10 lg:mt-6 relative ">
+            <img src="/Image (4).svg" class="w-full lg:w-[572px] object-contain relative z-20 " />
             <img src="/Big Pattern (1).svg"
-              class="absolute -top-12 lg:-top-6 -right-[10px] lg:right-[-4rem] 4xl:right-[-7rem] overflow-hidden lg:transform lg:-translate-y-1/3 z-10 w-[176px] lg:w-[293px] 3xl:right-[-55px]" />
+              class="absolute -top-12 lg:-top-4 -right-[10px] lg:right-[-4rem] 4xl:right-[-7rem] overflow-hidden lg:transform lg:-translate-y-1/3 z-10 w-[176px] lg:w-[293px] 3xl:right-[-55px]" />
           </div>
           <div class="flex flex-col w-full lg:w-[572px] 4xl:w-[670px]">
             <h4 class="font-montserrat text-[#A2FF48] text-2xl tracking-wide font-semibold leading-[36px] text-left lg:mb-10 mb-5">
@@ -31,19 +31,19 @@
 
     </div>
 
-    <div class="flex flex-row justify-center lg:py-4 py-2 3xl:py-0 3xl:w-2/3 ">
-      <img src="/Frame 206.svg" class="w-[100px] h-1/2 lg:h-full lg:w-[200px] -mr-16 lg:-mr-20  3xl:mr-[-100px] relative z-10 lg:-top-1" />
+    <div class="flex flex-row justify-center lg:pb-8 py-2 3xl:py-0 3xl:w-2/3 ">
+      <img src="/Frame 206.svg" class="w-[100px] h-1/2 lg:h-full lg:w-[150px] -mr-16 lg:-mr-16  3xl:mr-[-60px] relative z-10 lg:top-0" />
       <h3
-        class="hidden lg:flex text-center text-[#ffffff] font-semibold font-montserrat text-xl lg:text-[32px] leading-[40px] mt-10 lg:mt-20 relative z-20 lg:-ml-5 lg:-mr-5 3xl:mr-0 3xl:ml-0">
+        class="hidden lg:flex text-center text-[#ffffff] font-semibold font-montserrat text-xl lg:text-[32px] leading-[40px] mt-10 lg:mt-16 relative z-20  3xl:mr-0 3xl:ml-0">
         We aim to change that by offering <br>deeper, more meaningful insights.
       </h3>
       <h3
         class="lg:hidden text-center text-[#ffffff] font-semibold font-montserrat text-xl lg:text-[32px] max-w-5/6  lg:leading-[40px] mt-10 lg:mt-20 relative z-20 lg:-ml-5 lg:-mr-5 3xl:mr-0 3xl:ml-0">
         We aim to change that by offering deeper, more meaningful insights.
       </h3>
-      <img src="/Frame 205.svg" class="w-[100px] h-full lg:h-full lg:w-[200px] -ml-16 lg:-ml-20 3xl:ml-[-100px] relative z-10 top-[50px] lg:top-5" />
+      <img src="/Frame 205.svg" class="w-[100px] h-full lg:h-full lg:w-[150px] -ml-16 lg:-ml-16 3xl:ml-[-60px] relative z-10 top-[50px] lg:top-12" />
     </div>
-    <div class=" items-center 3xl:w-2/3 4xl:w-3/5 lg:mt-0 mt-10">
+    <div class=" items-center 3xl:w-2/3 4xl:w-3/5 lg:mt-10 mt-10">
       <div class="flex flex-col lg:flex-row items-center justify-center lg:pl-20 3xl:pl-0  gap-8">
         <div class="flex ">
           <div class="">
@@ -129,7 +129,7 @@
         </div>
       </div>
     </div>
-    <div class=" items-center 3xl:w-2/3 pb-10 lg:pb-48 3xl:pb-20 4xl:w-3/5 mt-10 lg:mt-12">
+    <div class=" items-center 3xl:w-2/3 pb-10 lg:pb-48 3xl:pb-20 4xl:w-3/5 mt-10 lg:mt-20 3xl:mt-10">
       <div class="flex flex-col lg:flex-row items-center justify-center lg:pl-20 3xl:pl-0 gap-8">
         <div class="flex ">
           <div class="">

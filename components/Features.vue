@@ -1,6 +1,6 @@
 <template>
   <div id="platform"
-    class="bg-[#F4EED3] pt-8 lg:pt-20 3xl:pt-20 4xl:pt-20 lg:pb-16 rounded-2xl lg:rounded-[2rem] pb-4 3xl:pb-0 4xl:pb-12 z-10 relative lg:pl-[8.5rem] px-4 lg:px-0  3xl:px-[23.5rem] 4xl:px-[27rem]">
+    class="bg-[#F4EED3] pt-8 lg:pt-20 3xl:pt-20 4xl:pt-24 lg:pb-16 rounded-2xl lg:rounded-[2rem] pb-4 3xl:pb-0 4xl:pb-14 z-10 relative lg:pl-[8.5rem] px-4 lg:px-0  3xl:px-[23.5rem] 4xl:px-[27rem]">
     <img src='/Mask group.svg' class="absolute 4xl:w-3/5  z-0 top-4 right-0" />
     <div class="text-black relative z-20 flex flex-col items-start justify-center">
       <p class="text-[20px] text-[#FF5F45] font-montserrat font-semibold">Platform</p>
