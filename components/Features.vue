@@ -1,15 +1,15 @@
 <template>
   <div id="platform"
-    class="bg-[#F4EED3] pt-8 lg:pt-20 3xl:pt-20 4xl:pt-24 lg:pb-16 rounded-2xl lg:rounded-[2rem] pb-4 3xl:pb-0 4xl:pb-14 z-10 relative lg:pl-[8.5rem] px-4 lg:px-0  3xl:px-[23.5rem] 4xl:px-[27rem]">
+    class="bg-[#F4EED3] pt-8 lg:pt-20 3xl:pt-20 4xl:pt-24 lg:pb-16  rounded-2xl lg:rounded-[2rem] pb-4 3xl:pb-0 4xl:pb-0 z-10 relative lg:pl-[8.5rem] px-4 lg:px-0  3xl:px-[23.5rem] 4xl:px-[27rem]">
     <img src='/Mask group.svg' class="absolute 4xl:w-3/5  z-0 top-4 right-0" />
     <div class="text-black relative z-20 flex flex-col items-start justify-center">
       <p class="text-[20px] text-[#FF5F45] font-montserrat font-semibold">Platform</p>
       <h2 class="font-montserrat lg:text-[40px] text-[32px] font-semibold leading-[48px]">Core Features</h2>
-      <div class="flex w-full justify-center items-center py-10 3xl:py-8 4xl:py-4 ">
+      <div class="flex w-full justify-center items-center py-10 lg:py-14 3xl:py-8 4xl:py-0 ">
         <!-- Button Section -->
         <div class="w-full flex flex-col items-center lg:pr-40 ">
           <!-- Accordion 1 -->
-          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-6 items-center justify-center">
+          <div class="w-full border-b-2 border-b-[#B4B8B7] py-6 3xl:py-4 4xl:py-0 items-center justify-center">
             <div @click="toggleAccordion(1)" class="flex justify-between cursor-pointer">
               <h3  class="font-semibold font-montserrat text-[20px] text-[#00140F] ">Semantic Search</h3>
               <Button @click="toggleAccordion(1)"
